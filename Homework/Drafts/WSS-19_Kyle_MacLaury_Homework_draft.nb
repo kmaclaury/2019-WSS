@@ -1,0 +1,115 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3587,        107]
+NotebookOptionsPosition[      2213,         67]
+NotebookOutlinePosition[      3179,        100]
+CellTagsIndexPosition[      3113,         95]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+ "How much electricity does my hot tub use?",
+ StyleBox[" ",
+  FontSize->16]
+}], "Title",
+ CellChangeTimes->{{3.770055572438499*^9, 3.7700555729498453`*^9}, {
+  3.770055604008165*^9, 3.7700556066618843`*^9}, {3.770373672636671*^9, 
+  3.7703737875292807`*^9}, {3.770537045333147*^9, 3.7705370778202133`*^9}},
+ CellTags->"Title",ExpressionUUID->"49ab34ee-bfd5-49f5-beef-400d3cc456dd"],
+
+Cell["\<\
+Using Smart Meter and Smart Thermostat data to estimate the energy \
+consumption of a hot tub.\
+\>", "Subtitle",
+ CellChangeTimes->{{3.7705374234368105`*^9, 
+  3.770537478131421*^9}},ExpressionUUID->"01592b2e-a6ea-48f3-a6ee-\
+4260a58d89e6"],
+
+Cell["Kyle MacLaury", "Author",
+ CellChangeTimes->{{3.549624168509506*^9, 3.549624171985794*^9}, {
+  3.549624508772977*^9, 3.549624510775043*^9}, {3.5498187159613867`*^9, 
+  3.5498187170087957`*^9}, {3.549819049020514*^9, 3.5498190533440437`*^9}, {
+  3.77005561844785*^9, 3.7700556489651537`*^9}, {3.7705370647683773`*^9, 
+  3.7705370686182747`*^9}},ExpressionUUID->"94536f76-3fd2-4bf6-b228-\
+fa93ec9acae9"],
+
+Cell[CellGroupData[{
+
+Cell["Introduction", "Section",
+ CellChangeTimes->{{3.7705376555178785`*^9, 3.770537664962737*^9}, {
+  3.770537705829153*^9, 
+  3.7705377075750284`*^9}},ExpressionUUID->"4bdd3023-3314-4d31-8103-\
+e3391eefafb0"],
+
+Cell["\<\
+When we purchased our home in 2015 it already had a hot tub installed on the \
+exterior of the  home.  \
+\>", "Text",
+ CellChangeTimes->{{3.7705377421585503`*^9, 3.7705378344307585`*^9}, {
+  3.770537865581972*^9, 
+  3.770537894163731*^9}},ExpressionUUID->"66c1f441-94a7-4fdc-b8d2-\
+e8204dbfde2d"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1368, 829},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+DockedCells->{
+  Cell[
+   TextData[{
+     StyleBox["  WOLFRAM ", 
+      RGBColor[0.97, 0.83, 0.35], FontFamily -> "Source Sans Pro", FontWeight -> 
+      Bold, FontSize -> 40], 
+     StyleBox["SUMMER SCHOOL", 
+      GrayLevel[1], FontFamily -> "Source Sans Pro", FontSize -> 40], 
+     StyleBox[" 2019", 
+      RGBColor[0.97, 0.83, 0.35], FontFamily -> "Source Sans Pro", FontSize -> 
+      40]}], CellFrameMargins -> 10, Background -> 
+   RGBColor[0.12, 0.14, 0.15]]},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 11, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Title"->{
+  Cell[580, 22, 398, 8, 96, "Title",ExpressionUUID->"49ab34ee-bfd5-49f5-beef-400d3cc456dd",
+   CellTags->"Title"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Title", 2974, 89}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 398, 8, 96, "Title",ExpressionUUID->"49ab34ee-bfd5-49f5-beef-400d3cc456dd",
+ CellTags->"Title"],
+Cell[981, 32, 250, 6, 53, "Subtitle",ExpressionUUID->"01592b2e-a6ea-48f3-a6ee-4260a58d89e6"],
+Cell[1234, 40, 407, 6, 31, "Author",ExpressionUUID->"94536f76-3fd2-4bf6-b228-fa93ec9acae9"],
+Cell[CellGroupData[{
+Cell[1666, 50, 210, 4, 67, "Section",ExpressionUUID->"4bdd3023-3314-4d31-8103-e3391eefafb0"],
+Cell[1879, 56, 306, 7, 34, "Text",ExpressionUUID->"66c1f441-94a7-4fdc-b8d2-e8204dbfde2d"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
