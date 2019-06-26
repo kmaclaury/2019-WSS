@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     94417,       1981]
-NotebookOptionsPosition[     92590,       1933]
-NotebookOutlinePosition[     93559,       1966]
-CellTagsIndexPosition[     93490,       1961]
+NotebookDataLength[     94500,       1982]
+NotebookOptionsPosition[     92673,       1934]
+NotebookOutlinePosition[     93642,       1967]
+CellTagsIndexPosition[     93573,       1962]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -134,7 +134,7 @@ Cell[BoxData[
         "RowTarget" -> 20, "Data" -> 
         TypeSystem`PackageScope`CacheHandle[1757223020]], 
       TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
-      TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 11497, 
+      TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 1, 
       TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
       DynamicModule[{
         TypeSystem`NestedGrid`PackagePrivate`renderedGrid = Deploy[
@@ -1921,12 +1921,13 @@ ab356f3ab3b9"],
 
 Cell["\<\
 The hot tub was filled and operating through the winter of 2018 to 2019.  The \
-hot tub was drained, and its breaker opened on April 14, 2019.  It remained \
-empty and unpowered until it was refilled on May 11, 2019.  \
+hot tub was drained, and its breaker opened to prevent electricity \
+consumption on April 14, 2019.  It remained empty and unpowered until it was \
+refilled on May 11, 2019.  \
 \>", "Text",
  CellChangeTimes->{{3.770542593829939*^9, 3.7705427443119154`*^9}, {
-  3.7705431219586*^9, 
-  3.7705431332586937`*^9}},ExpressionUUID->"aec81e7b-be19-4b72-9619-\
+  3.7705431219586*^9, 3.7705431332586937`*^9}, {3.7705490865016046`*^9, 
+  3.7705490951398883`*^9}},ExpressionUUID->"aec81e7b-be19-4b72-9619-\
 f480636b9a28"]
 }, Open  ]]
 }, Open  ]]
@@ -1960,7 +1961,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 93351, 1955}
+ {"Title", 93434, 1956}
  }
 *)
 (*NotebookFileOutline
@@ -1975,12 +1976,12 @@ Cell[1692, 50, 210, 4, 67, "Section",ExpressionUUID->"4bdd3023-3314-4d31-8103-e3
 Cell[1905, 56, 1128, 17, 78, "Text",ExpressionUUID->"66c1f441-94a7-4fdc-b8d2-e8204dbfde2d"],
 Cell[CellGroupData[{
 Cell[3058, 77, 324, 5, 28, "Input",ExpressionUUID->"c0dc7183-a5ea-4080-9cbb-ba49a1b65e11"],
-Cell[3385, 84, 88536, 1826, 583, "Output",ExpressionUUID->"8acab437-41fd-4292-a2ad-59c5acb516ee"]
+Cell[3385, 84, 88532, 1826, 583, "Output",ExpressionUUID->"8acab437-41fd-4292-a2ad-59c5acb516ee"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[91970, 1916, 170, 3, 67, "Section",ExpressionUUID->"d0e6a292-803f-4af8-a691-ab356f3ab3b9"],
-Cell[92143, 1921, 419, 8, 56, "Text",ExpressionUUID->"aec81e7b-be19-4b72-9619-f480636b9a28"]
+Cell[91966, 1916, 170, 3, 67, "Section",ExpressionUUID->"d0e6a292-803f-4af8-a691-ab356f3ab3b9"],
+Cell[92139, 1921, 506, 9, 56, "Text",ExpressionUUID->"aec81e7b-be19-4b72-9619-f480636b9a28"]
 }, Open  ]]
 }, Open  ]]
 }
