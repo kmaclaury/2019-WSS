@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    268246,       4898]
-NotebookOptionsPosition[    265221,       4831]
-NotebookOutlinePosition[    266191,       4864]
-CellTagsIndexPosition[    266121,       4859]
+NotebookDataLength[    268308,       4907]
+NotebookOptionsPosition[    265283,       4840]
+NotebookOutlinePosition[    266253,       4873]
+CellTagsIndexPosition[    266183,       4868]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -76,11 +76,14 @@ e8204dbfde2d"],
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"SemanticImport", "[", 
-  "\"\<C:\\\\Users\\\\kylem\\\\Documents\\\\GitHub\\\\2019-WSS\\\\Homework\\\\\
-Drafts\\\\Homework Data.csv\>\"", "]"}]], "Input",
- CellChangeTimes->{{3.7705417652666435`*^9, 3.770541768665533*^9}},
- CellLabel->"In[31]:=",ExpressionUUID->"c0dc7183-a5ea-4080-9cbb-ba49a1b65e11"],
+ RowBox[{"usage", "=", 
+  RowBox[{
+  "SemanticImport", "[", 
+   "\"\<C:\\\\Users\\\\kylem\\\\Documents\\\\GitHub\\\\2019-WSS\\\\Homework\\\
+\\Drafts\\\\Homework Data.csv\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.7705417652666435`*^9, 3.770541768665533*^9}, {
+  3.770588014449852*^9, 3.770588019300869*^9}},
+ CellLabel->"In[49]:=",ExpressionUUID->"c0dc7183-a5ea-4080-9cbb-ba49a1b65e11"],
 
 Cell[BoxData[
  TemplateBox[{TagBox[
@@ -116,7 +119,7 @@ Cell[BoxData[
               "Quantity" -> TypeSystem`PackageScope`AtomShape[60], 
               "UnitOfMeasure" -> TypeSystem`PackageScope`AtomShape[27.]]]], 
            20, {}]], "InitialData" -> 
-        TypeSystem`PackageScope`CacheHandle[1757223020], "Type" -> 
+        TypeSystem`PackageScope`CacheHandle[2054391854], "Type" -> 
         TypeSystem`Vector[
           
           TypeSystem`Struct[{
@@ -132,9 +135,9 @@ Cell[BoxData[
             TypeSystem`Atom[
              TypeSystem`Enumeration["kWh"]]}], 11516], "HandleQ" -> True, 
         "RowTarget" -> 20, "Data" -> 
-        TypeSystem`PackageScope`CacheHandle[1757223020]], 
+        TypeSystem`PackageScope`CacheHandle[2054391854]], 
       TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
-      TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 11497, 
+      TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 1, 
       TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
       DynamicModule[{
         TypeSystem`NestedGrid`PackagePrivate`renderedGrid = Deploy[
@@ -165,9 +168,9 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1312815525][{All, "ServiceAgreement"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605][{
+                    All, "ServiceAgreement"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[All, "ServiceAgreement"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -195,9 +198,9 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1312815525][{All, "IntervalStart"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605][{
+                    All, "IntervalStart"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[All, "IntervalStart"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -225,9 +228,9 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1312815525][{All, "IntervalEnd"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605][{
+                    All, "IntervalEnd"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[All, "IntervalEnd"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -254,9 +257,9 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1312815525][{All, "Quantity"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605][{
+                    All, "Quantity"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[All, "Quantity"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -284,9 +287,9 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1312815525][{All, "UnitOfMeasure"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605][{
+                    All, "UnitOfMeasure"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[All, "UnitOfMeasure"]], "Mouse"], 
                 Background -> GrayLevel[0.95], 
                 Alignment -> {Left, Baseline}]}, {
@@ -294,7 +297,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[1, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -307,7 +310,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[1, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -320,7 +323,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[1, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -328,14 +331,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[1, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[1, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -344,7 +347,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[2, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -357,7 +360,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[2, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -370,7 +373,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[2, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -378,14 +381,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.83"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[2, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[2, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -394,7 +397,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[3, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -407,7 +410,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[3, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -420,7 +423,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[3, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -428,14 +431,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.11"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[3, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[3, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -444,7 +447,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[4, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -457,7 +460,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[4, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -470,7 +473,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[4, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -478,14 +481,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[4, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[4, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -494,7 +497,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[5, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -507,7 +510,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[5, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -520,7 +523,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[5, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -528,14 +531,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.13"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[5, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[5, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -544,7 +547,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[6, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -557,7 +560,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[6, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -570,7 +573,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[6, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -578,14 +581,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[6, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[6, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -594,7 +597,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[7, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -607,7 +610,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[7, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -620,7 +623,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[7, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -628,14 +631,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[7, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[7, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -644,7 +647,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[8, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -657,7 +660,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[8, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -670,7 +673,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[8, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -678,14 +681,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.15"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[8, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[8, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -694,7 +697,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[9, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -707,7 +710,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[9, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -720,7 +723,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[9, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -728,14 +731,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[9, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[9, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -744,7 +747,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[10, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -757,7 +760,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[10, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -770,7 +773,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[10, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -778,14 +781,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.82"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[10, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[10, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -794,7 +797,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[11, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -807,7 +810,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[11, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -820,7 +823,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[11, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -828,14 +831,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[11, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[11, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -844,7 +847,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[12, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -857,7 +860,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[12, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -870,7 +873,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[12, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -878,14 +881,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[12, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[12, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -894,7 +897,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[13, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -907,7 +910,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[13, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -920,7 +923,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[13, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -928,14 +931,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[13, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[13, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -944,7 +947,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[14, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -957,7 +960,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[14, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -970,7 +973,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[14, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -978,14 +981,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[14, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[14, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -994,7 +997,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[15, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -1007,7 +1010,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[15, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1020,7 +1023,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[15, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1028,14 +1031,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[15, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[15, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -1044,7 +1047,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[16, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -1057,7 +1060,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[16, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1070,7 +1073,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[16, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1078,14 +1081,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.11"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[16, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[16, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -1094,7 +1097,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[17, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -1107,7 +1110,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[17, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1120,7 +1123,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[17, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1128,14 +1131,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.13"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[17, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[17, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -1144,7 +1147,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[18, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -1157,7 +1160,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[18, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1170,7 +1173,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[18, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1178,14 +1181,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.82"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[18, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[18, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -1194,7 +1197,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[19, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -1207,8 +1210,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525]
-                 [
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[19, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1221,7 +1223,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[19, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1229,14 +1231,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.11"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[19, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[19, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -1245,7 +1247,7 @@ Cell[BoxData[
                 Annotation[
                 "MACLAURY, KYLE S / Residential Electric / E01 / 08-24-2015 \
 12:00:00AM / Active", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[20, 
                    Key["ServiceAgreement"]]], "Mouse"], 
                 ImageSize -> {{702., Full}, Automatic}, 
@@ -1258,7 +1260,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[20, 
                    Key["IntervalStart"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1271,7 +1273,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[20, 
                    Key["IntervalEnd"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1279,14 +1281,14 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0.14"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[20, 
                    Key["Quantity"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
                 Alignment -> {Left, Baseline}], 
                Pane[
                 Annotation["kWh", 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
                   GeneralUtilities`Slice[20, 
                    Key["UnitOfMeasure"]]], "Mouse"], 
                 ImageSize -> {{27., Full}, Automatic}, 
@@ -1494,6 +1496,7 @@ Cell[BoxData[
                     FaceForm[{
                     RGBColor[0.481, 0.481, 0.481], 
                     Opacity[1.]}], 
+                    
                     FilledCurve[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
                     36.571, 1.031}, {42.440999999999995`, 1.031}, {
                     42.440999999999995`, 60.967}, {36.571, 60.967}}}], 
@@ -1687,6 +1690,7 @@ Cell[BoxData[
                     FilledCurve[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
                     36.571, 1.031}, {42.440999999999995`, 1.031}, {
                     42.440999999999995`, 60.967}, {36.571, 60.967}}}], 
+                    
                     FilledCurve[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
                     0}, {0, 1, 0}}}, {{{0.5598000000000001, 
                     53.788500000000006`}, {26.5668, 31.015500000000007`}, {
@@ -1732,12 +1736,13 @@ Cell[BoxData[
                 BaseStyle -> {ContextMenu -> {
                     MenuItem["Hide", 
                     KernelExecute[
+                    
                     TypeSystem`NestedGrid`PackagePrivate`adjustLimits[{
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1312815525},
-                     1, {}]], MenuEvaluator -> Automatic], 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605}, 
+                    1, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show up to 10 rows", 
                     KernelExecute[
                     
@@ -1745,8 +1750,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1312815525},
-                     10, {}]], MenuEvaluator -> Automatic], 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605}, 
+                    10, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show up to 30 rows", 
                     KernelExecute[
                     
@@ -1754,8 +1759,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1312815525},
-                     30, {}]], MenuEvaluator -> Automatic], 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605}, 
+                    30, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show up to 100 rows", 
                     KernelExecute[
                     
@@ -1763,8 +1768,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1312815525},
-                     100, {}]], MenuEvaluator -> Automatic], 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605}, 
+                    100, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show all", 
                     KernelExecute[
                     
@@ -1772,8 +1777,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1312815525},
-                     100000000, {}]], MenuEvaluator -> Automatic]}}], 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605}, 
+                    100000000, {}]], MenuEvaluator -> Automatic]}}], 
                SpanFromLeft, SpanFromLeft, SpanFromLeft, SpanFromLeft}}, 
              BaseStyle -> {ContextMenu -> {
                  MenuItem["Copy position to clipboard", 
@@ -1822,7 +1827,7 @@ Cell[BoxData[
                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                  TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1312815525][
+                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605][
                 TypeSystem`NestedGrid`PackagePrivate`tmpData$]]; If[
                Not[
                 FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]], 
@@ -1853,14 +1858,14 @@ Cell[BoxData[
            TypeSystem`NestedGrid`PackagePrivate`$state$$, 
             TypeSystem`NestedGrid`PackagePrivate`$path$$, 
             TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-            TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1312815525]]]], 
+            TypeSystem`NestedGrid`PackagePrivate`$grid$$, 7917605]]]], 
         TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$path$$}], 
       TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$ = Framed[
         Dynamic[
          Replace[
           MouseAnnotation[Null], {
-          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][Null] -> 
-           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1312815525][
+          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][Null] -> 
+           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[7917605][
              Pattern[TypeSystem`NestedGrid`PackagePrivate`path, 
               Blank[]]] :> (
             TypeSystem`NestedGrid`PackagePrivate`$lastPath = 
@@ -1894,7 +1899,7 @@ Cell[BoxData[
            TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$]]}], Spacings -> 
         If[TypeSystem`NestedGrid`PackagePrivate`$path$$ == {}, 
           0, {{}, {0, 0.05, 0}}]], StandardForm], 
-      ImageSizeCache -> {1245., {279., 285.}}, 
+      ImageSizeCache -> {1225., {279., 285.}}, 
       TrackedSymbols :> {
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
@@ -1907,8 +1912,8 @@ Cell[BoxData[
   "CopyTag",
   DisplayFunction->(#& ),
   InterpretationFunction->("Dataset[<>]"& )]], "Output",
- CellChangeTimes->{3.770541773259242*^9},
- CellLabel->"Out[31]=",ExpressionUUID->"8acab437-41fd-4292-a2ad-59c5acb516ee"]
+ CellChangeTimes->{3.770541773259242*^9, 3.7705880243592997`*^9},
+ CellLabel->"Out[49]=",ExpressionUUID->"7655c293-734e-42d3-a2f6-3e81ac29674f"]
 }, Open  ]]
 }, Open  ]],
 
@@ -4801,11 +4806,15 @@ complicate the analysis.  One of those loads is a Nissan Leaf which we don\
 \[CloseCurlyQuote]t charge daily.  On those days that it is charged it is \
 common for it to consume between 10 to 20 kWh over the course of many hours.  \
 The other very large load is a sauna, which is used infrequently, and only \
-for an hour or two at a time.  \
+for an hour or two at a time.  To arrive at an accurate estimate of the hot \
+tub\[CloseCurlyQuote]s energy consumption it may be necessary to eliminate \
+days from consideration during which the electric car or sauna used a \
+significant amount of energy.\
 \>", "Text",
  CellChangeTimes->{{3.7705859874518194`*^9, 3.770586044588022*^9}, {
   3.7705860827021203`*^9, 3.770586086989624*^9}, {3.7705864030166006`*^9, 
-  3.7705866438764553`*^9}},ExpressionUUID->"913a1490-e68b-4512-8b67-\
+  3.7705866438764553`*^9}, {3.770587362935728*^9, 
+  3.770587412836278*^9}},ExpressionUUID->"913a1490-e68b-4512-8b67-\
 638fcd7a022f"]
 }, Open  ]],
 
@@ -4858,7 +4867,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 265982, 4853}
+ {"Title", 266044, 4862}
  }
 *)
 (*NotebookFileOutline
@@ -4872,32 +4881,32 @@ Cell[CellGroupData[{
 Cell[1692, 50, 210, 4, 67, "Section",ExpressionUUID->"4bdd3023-3314-4d31-8103-e3391eefafb0"],
 Cell[1905, 56, 1128, 17, 78, "Text",ExpressionUUID->"66c1f441-94a7-4fdc-b8d2-e8204dbfde2d"],
 Cell[CellGroupData[{
-Cell[3058, 77, 324, 5, 28, "Input",ExpressionUUID->"c0dc7183-a5ea-4080-9cbb-ba49a1b65e11"],
-Cell[3385, 84, 88536, 1826, 583, "Output",ExpressionUUID->"8acab437-41fd-4292-a2ad-59c5acb516ee"]
+Cell[3058, 77, 404, 8, 28, "Input",ExpressionUUID->"c0dc7183-a5ea-4080-9cbb-ba49a1b65e11"],
+Cell[3465, 87, 88244, 1828, 583, "Output",ExpressionUUID->"7655c293-734e-42d3-a2f6-3e81ac29674f"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[91970, 1916, 257, 4, 67, "Section",ExpressionUUID->"7fc2d02f-399e-4fe4-85fa-23f9cc9f4fd1"],
-Cell[92230, 1922, 907, 15, 34, "Text",ExpressionUUID->"3a1b5f95-c471-4650-95cc-6dfce006145f"],
+Cell[91758, 1921, 257, 4, 67, "Section",ExpressionUUID->"7fc2d02f-399e-4fe4-85fa-23f9cc9f4fd1"],
+Cell[92018, 1927, 907, 15, 34, "Text",ExpressionUUID->"3a1b5f95-c471-4650-95cc-6dfce006145f"],
 Cell[CellGroupData[{
-Cell[93162, 1941, 528, 11, 42, "Input",ExpressionUUID->"4c4185c5-246d-4f89-89cd-72c10e9b463e"],
-Cell[93693, 1954, 228, 4, 41, "Output",ExpressionUUID->"52f34072-fefc-4a62-a82e-0c51b30deedb"]
+Cell[92950, 1946, 528, 11, 42, "Input",ExpressionUUID->"4c4185c5-246d-4f89-89cd-72c10e9b463e"],
+Cell[93481, 1959, 228, 4, 41, "Output",ExpressionUUID->"52f34072-fefc-4a62-a82e-0c51b30deedb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[93958, 1963, 1619, 34, 42, "Input",ExpressionUUID->"317c9f72-3423-4c07-98f6-41a616131f9c"],
-Cell[95580, 1999, 167213, 2766, 259, "Output",ExpressionUUID->"651e2b9c-b99f-4562-a975-a707ba22d05b"]
+Cell[93746, 1968, 1619, 34, 42, "Input",ExpressionUUID->"317c9f72-3423-4c07-98f6-41a616131f9c"],
+Cell[95368, 2004, 167213, 2766, 259, "Output",ExpressionUUID->"651e2b9c-b99f-4562-a975-a707ba22d05b"]
 }, Open  ]],
-Cell[262808, 4768, 165, 3, 34, "Text",ExpressionUUID->"2cf66dd9-fbe7-4911-8b4e-0cd0427bdae6"],
-Cell[262976, 4773, 292, 6, 34, "Text",ExpressionUUID->"83758329-0e80-46d4-bf21-438e8630be49"],
+Cell[262596, 4773, 165, 3, 34, "Text",ExpressionUUID->"2cf66dd9-fbe7-4911-8b4e-0cd0427bdae6"],
+Cell[262764, 4778, 292, 6, 34, "Text",ExpressionUUID->"83758329-0e80-46d4-bf21-438e8630be49"],
 Cell[CellGroupData[{
-Cell[263293, 4783, 280, 5, 28, "Input",ExpressionUUID->"a4a6260a-aae9-4dae-8e3e-7e34c2cff28b"],
-Cell[263576, 4790, 213, 4, 40, "Output",ExpressionUUID->"aa212434-7944-4fdd-8fc1-33b616012cfa"]
+Cell[263081, 4788, 280, 5, 28, "Input",ExpressionUUID->"a4a6260a-aae9-4dae-8e3e-7e34c2cff28b"],
+Cell[263364, 4795, 213, 4, 40, "Output",ExpressionUUID->"aa212434-7944-4fdd-8fc1-33b616012cfa"]
 }, Open  ]],
-Cell[263804, 4797, 673, 11, 56, "Text",ExpressionUUID->"913a1490-e68b-4512-8b67-638fcd7a022f"]
+Cell[263592, 4802, 947, 15, 78, "Text",ExpressionUUID->"913a1490-e68b-4512-8b67-638fcd7a022f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[264514, 4813, 170, 3, 67, "Section",ExpressionUUID->"d0e6a292-803f-4af8-a691-ab356f3ab3b9"],
-Cell[264687, 4818, 506, 9, 56, "Text",ExpressionUUID->"aec81e7b-be19-4b72-9619-f480636b9a28"]
+Cell[264576, 4822, 170, 3, 67, "Section",ExpressionUUID->"d0e6a292-803f-4af8-a691-ab356f3ab3b9"],
+Cell[264749, 4827, 506, 9, 56, "Text",ExpressionUUID->"aec81e7b-be19-4b72-9619-f480636b9a28"]
 }, Open  ]]
 }, Open  ]]
 }
