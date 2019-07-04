@@ -1,0 +1,94 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      2982,         86]
+NotebookOptionsPosition[      2507,         71]
+NotebookOutlinePosition[      2849,         86]
+CellTagsIndexPosition[      2806,         83]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+# create and fit the LSTM network
+model = Sequential () # New Instance of Model Object
+model.add (LSTM (20, input_shape = (1, look_back)))
+model.add (Dense (100, activation = ' relu'))
+model.add (Dense (60, activation = ' relu'))
+model.add (Dense (50, activation = ' relu'))
+model.add (Dense (1, activation = ' linear'))
+model.compile (loss = ' mean_squared _error', optimizer = ' ADAM')
+
+start = time.time ()
+hist = model.fit (trainX, trainY, epochs = 150, shuffle = True, batch_size = \
+125, validation_data = (testX, testY), callbacks = [EarlyStopping (monitor = \
+' val_loss', patience = 30)], verbose = 1)
+
+We got signi\[FiLigature]cantly better results by having six hidden layers \
+having 100, 60 and 50 neurons.
+The number of epochs used were 150 with batch size of 125 training examples. \
+For our problem,
+nonlinear activation function ReLu performed the best and is thus used as \
+activation function for each
+of the hidden layers. ReLU does not encounter vanishing gradient problem as \
+with tanh and sigmoid
+activations. Amongst optimizers, ADAM performed the best and showed faster \
+convergence than
+the conventional SGD. Furthermore, by using this optimizer, we do not need to \
+specify and tune a
+learning rate as with SGDr
+
+end = time.time ()
+# Training Phase
+model.summary ()\
+\>", "Text",
+ CellChangeTimes->{{3.7712446476237516`*^9, 3.77124465896996*^9}, {
+  3.7712524928726263`*^9, 
+  3.7712525244428005`*^9}},ExpressionUUID->"1bc1536d-e9fa-4bd7-9c83-\
+43a8de729963"],
+
+Cell[BoxData[
+ RowBox[{"NetChain", "[", 
+  RowBox[{"LongShortTermMemoryLayer", ","}]}]], "Input",
+ CellChangeTimes->{{3.771244757646844*^9, 3.771244764892714*^9}, {
+  3.7712516660015783`*^9, 
+  3.771251702488499*^9}},ExpressionUUID->"19e43c76-a55d-4690-af84-\
+4ef7c32eccbd"],
+
+Cell[BoxData["NetGraph"], "Input",
+ CellChangeTimes->{{3.7712448200678706`*^9, 
+  3.7712448388640304`*^9}},ExpressionUUID->"36a64769-ff36-4014-94fd-\
+2250b02013bf"]
+},
+WindowSize->{682, 820},
+WindowMargins->{{Automatic, -7}, {Automatic, 0}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 11, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[561, 20, 1498, 36, 650, "Text",ExpressionUUID->"1bc1536d-e9fa-4bd7-9c83-43a8de729963"],
+Cell[2062, 58, 274, 6, 28, "Input",ExpressionUUID->"19e43c76-a55d-4690-af84-4ef7c32eccbd"],
+Cell[2339, 66, 164, 3, 28, "Input",ExpressionUUID->"36a64769-ff36-4014-94fd-2250b02013bf"]
+}
+]
+*)
+

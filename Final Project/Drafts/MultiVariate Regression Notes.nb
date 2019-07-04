@@ -1,0 +1,71 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      2000,         61]
+NotebookOptionsPosition[      1441,         45]
+NotebookOutlinePosition[      1782,         60]
+CellTagsIndexPosition[      1739,         57]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Notes", "Text",
+ CellChangeTimes->{{3.771253921511176*^9, 
+  3.771253932121401*^9}},ExpressionUUID->"e716a09e-a534-47cb-b985-\
+ad4786189b2c"],
+
+Cell[BoxData[
+ RowBox[{"LinearModelFit", "["}]], "Input",
+ CellChangeTimes->{{3.7712539441270113`*^9, 
+  3.771253964087385*^9}},ExpressionUUID->"b62d48e4-f818-472d-944c-\
+fff3316e788d"],
+
+Cell["\<\
+Include cosine terms of the correct period with  , offset and amplitude for \
+each period type, and a term for each other co-factor.\
+\>", "Text",
+ CellChangeTimes->{{3.7712540089251456`*^9, 3.771254023716148*^9}, {
+  3.7712540658543706`*^9, 
+  3.7712540859366364`*^9}},ExpressionUUID->"a6640eaf-086e-45b8-8d33-\
+7dcce8f9cb87"],
+
+Cell[" each observation point as a list with load at the end", "Text",
+ CellChangeTimes->{{3.771257929349809*^9, 
+  3.7712579519387875`*^9}},ExpressionUUID->"767b336e-6807-4b13-9e60-\
+79b4a1c17c12"]
+},
+WindowSize->{896, 817},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 11, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[561, 20, 147, 3, 34, "Text",ExpressionUUID->"e716a09e-a534-47cb-b985-ad4786189b2c"],
+Cell[711, 25, 185, 4, 28, "Input",ExpressionUUID->"b62d48e4-f818-472d-944c-fff3316e788d"],
+Cell[899, 31, 337, 7, 34, "Text",ExpressionUUID->"a6640eaf-086e-45b8-8d33-7dcce8f9cb87"],
+Cell[1239, 40, 198, 3, 34, "Text",ExpressionUUID->"767b336e-6807-4b13-9e60-79b4a1c17c12"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
