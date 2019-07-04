@@ -1,0 +1,52 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      1265,         44]
+NotebookOptionsPosition[       975,         31]
+NotebookOutlinePosition[      1318,         46]
+CellTagsIndexPosition[      1275,         43]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"hourlyBostonTemperatureTimeSeriesResample", "=", 
+  RowBox[{
+  "Import", "[", 
+   "\"\<C:\\\\Users\\\\kylem\\\\Documents\\\\GitHub\\\\2019-WSS\\\\Final \
+Project\\\\Drafts\\\\kyle\\\\hourlyBostonTemperatureTimeSeriesResample.wxf\>\"\
+", " ", "]"}]}]], "Input",
+ CellChangeTimes->{{3.771189474961767*^9, 
+  3.771189488057515*^9}},ExpressionUUID->"6d1b268d-2839-43e3-97ee-\
+e3843a8ec5a7"]
+},
+WindowSize->{682, 820},
+WindowMargins->{{18, Automatic}, {Automatic, 31}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 11, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[561, 20, 410, 9, 86, "Input",ExpressionUUID->"6d1b268d-2839-43e3-97ee-e3843a8ec5a7"]
+}
+]
+*)
+
