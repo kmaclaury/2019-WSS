@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    189838,       4060]
-NotebookOptionsPosition[    186081,       3991]
-NotebookOutlinePosition[    186424,       4006]
-CellTagsIndexPosition[    186381,       4003]
+NotebookDataLength[    180443,       3827]
+NotebookOptionsPosition[    176625,       3754]
+NotebookOutlinePosition[    176968,       3769]
+CellTagsIndexPosition[    176925,       3766]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -88,7 +88,7 @@ Cell[BoxData[
    3.7713301552506504`*^9}, 3.7713301922733383`*^9, {3.771330224592881*^9, 
    3.7713302325322404`*^9}},
  NumberMarks->False,
- CellLabel->"In[37]:=",ExpressionUUID->"c7363bdc-252d-4b79-85e5-b79d59e32c63"],
+ CellLabel->"In[23]:=",ExpressionUUID->"c7363bdc-252d-4b79-85e5-b79d59e32c63"],
 
 Cell[BoxData[
  RowBox[{
@@ -111,7 +111,7 @@ Cell[BoxData[
    3.771334592862686*^9, 3.7713346709325523`*^9}, {3.771334710712553*^9, 
    3.771334730976562*^9}, {3.771335023157075*^9, 3.7713350242746773`*^9}, {
    3.7713350557551613`*^9, 3.7713350607606344`*^9}},
- CellLabel->"In[90]:=",ExpressionUUID->"a327a37b-dca7-4501-b7fc-87ec975a4380"],
+ CellLabel->"In[22]:=",ExpressionUUID->"a327a37b-dca7-4501-b7fc-87ec975a4380"],
 
 Cell[CellGroupData[{
 
@@ -185,8 +185,7 @@ Cell[BoxData[
    "]"}]}]], "Input",
  CellChangeTimes->{{3.771328004772486*^9, 3.7713280115790606`*^9}, {
   3.7713353961724324`*^9, 3.7713354186734548`*^9}},
- CellLabel->
-  "In[120]:=",ExpressionUUID->"c6e7f566-7ad8-4fe0-bc9b-0014407d12c7"],
+ CellLabel->"In[26]:=",ExpressionUUID->"c6e7f566-7ad8-4fe0-bc9b-0014407d12c7"],
 
 Cell[BoxData[
  TemplateBox[{TagBox[
@@ -216,7 +215,7 @@ Cell[BoxData[
               TypeSystem`PackageScope`AtomShape[34], "BusinessDay" -> 
               TypeSystem`PackageScope`AtomShape[34], "Load" -> 
               TypeSystem`PackageScope`AtomShape[60]]]], 20, {}]], 
-        "InitialData" -> TypeSystem`PackageScope`CacheHandle[1357976266], 
+        "InitialData" -> TypeSystem`PackageScope`CacheHandle[1565457776], 
         "Type" -> TypeSystem`Vector[
           
           TypeSystem`Struct[{
@@ -226,7 +225,7 @@ Cell[BoxData[
             TypeSystem`Atom[Integer], 
             TypeSystem`Atom[Integer], 
             TypeSystem`Atom[Real]}], 58680], "HandleQ" -> True, "RowTarget" -> 
-        20, "Data" -> TypeSystem`PackageScope`CacheHandle[1357976266]], 
+        20, "Data" -> TypeSystem`PackageScope`CacheHandle[1565457776]], 
       TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
       TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 1, 
       TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
@@ -259,8 +258,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1518818640][{All, "Date"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                    1345217083][{All, "Date"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[All, "Date"]], "Mouse"], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -289,8 +288,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1518818640][{All, "Temperature"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                    1345217083][{All, "Temperature"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[All, "Temperature"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -318,8 +317,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1518818640][{All, "Hour"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                    1345217083][{All, "Hour"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[All, "Hour"]], "Mouse"], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -348,8 +347,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1518818640][{All, "BusinessDay"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                    1345217083][{All, "BusinessDay"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[All, "BusinessDay"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -377,8 +376,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1518818640][{All, "Load"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                    1345217083][{All, "Load"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[All, "Load"]], "Mouse"], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}]}, {
                Pane[
@@ -389,7 +388,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[1, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -397,7 +396,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[1, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -405,7 +404,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[1, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -413,7 +412,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[1, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -421,7 +420,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["11641.4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[1, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -434,7 +433,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[2, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -442,7 +441,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.3"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[2, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -450,7 +449,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[2, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -458,7 +457,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[2, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -466,7 +465,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10883.1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[2, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -479,7 +478,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[3, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -487,7 +486,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.3"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[3, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -495,7 +494,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[3, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -503,7 +502,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[3, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -511,7 +510,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10707.6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[3, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -524,7 +523,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[4, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -532,7 +531,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[4, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -540,7 +539,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["3"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[4, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -548,7 +547,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[4, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -556,7 +555,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10663.2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[4, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -569,7 +568,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[5, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -577,7 +576,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[5, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -585,7 +584,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[5, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -593,7 +592,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[5, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -601,7 +600,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10627.7"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[5, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -614,7 +613,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[6, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -622,7 +621,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["16.1387"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[6, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -630,7 +629,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[6, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -638,7 +637,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[6, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -646,7 +645,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10848.8"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[6, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -659,7 +658,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[7, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -667,7 +666,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.3001"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[7, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -675,7 +674,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[7, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -683,7 +682,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[7, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -691,7 +690,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["11520.7"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[7, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -704,7 +703,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[8, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -712,7 +711,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12.8001"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[8, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -720,7 +719,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["7"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[8, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -728,7 +727,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[8, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -736,7 +735,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12877.6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[8, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -749,7 +748,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[9, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -757,7 +756,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12.8"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[9, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -765,7 +764,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["8"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[9, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -773,7 +772,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[9, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -781,7 +780,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14087.2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[9, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -794,7 +793,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[10, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -802,7 +801,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.2999"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[10, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -810,7 +809,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[10, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -818,7 +817,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[10, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -826,7 +825,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14646.6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[10, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -839,7 +838,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[11, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -847,7 +846,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.3"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[11, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -855,7 +854,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[11, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -863,7 +862,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[11, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -871,7 +870,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14992.9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[11, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -884,7 +883,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[12, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -892,7 +891,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12.8001"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[12, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -900,7 +899,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["11"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[12, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -908,7 +907,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[12, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -916,7 +915,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15267.5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[12, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -929,7 +928,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[13, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -937,7 +936,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.2999"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[13, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -945,7 +944,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[13, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -953,7 +952,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[13, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -961,7 +960,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15400.2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[13, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -974,7 +973,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[14, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -982,7 +981,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.3998"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[14, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -990,7 +989,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[14, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -998,7 +997,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[14, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1006,7 +1005,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15361.9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[14, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1019,7 +1018,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[15, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1027,7 +1026,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[15, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1035,7 +1034,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[15, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1043,7 +1042,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[15, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1051,7 +1050,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15344.1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[15, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1064,7 +1063,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[16, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1072,7 +1071,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[16, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1080,7 +1079,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[16, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1088,7 +1087,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[16, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1096,7 +1095,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15176.5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[16, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1109,7 +1108,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[17, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1117,7 +1116,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.3998"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[17, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1125,7 +1124,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["16"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[17, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1133,7 +1132,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[17, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1141,7 +1140,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15081.6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[17, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1154,7 +1153,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[18, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1162,7 +1161,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.9001"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[18, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1170,7 +1169,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["17"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[18, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1178,7 +1177,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[18, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1186,7 +1185,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15134.4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[18, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1199,7 +1198,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[19, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1207,7 +1206,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.3998"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[19, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1215,7 +1214,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["18"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[19, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1223,7 +1222,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[19, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1231,7 +1230,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15283.5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[19, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1244,7 +1243,7 @@ Cell[BoxData[
                     Rational[33, 74], 
                     Rational[27, 74], 
                     Rational[117, 370]}]]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[20, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{75, Full}, Automatic}, 
@@ -1252,7 +1251,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[20, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1260,7 +1259,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["19"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[20, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1268,7 +1267,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[20, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -1276,7 +1275,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15510.1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
                   GeneralUtilities`Slice[20, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -1729,7 +1728,7 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1518818640},
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1345217083},
                      1, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show up to 10 rows", 
                     KernelExecute[
@@ -1738,7 +1737,7 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1518818640},
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1345217083},
                      10, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show up to 30 rows", 
                     KernelExecute[
@@ -1747,7 +1746,7 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1518818640},
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1345217083},
                      30, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show up to 100 rows", 
                     KernelExecute[
@@ -1756,7 +1755,7 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1518818640},
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1345217083},
                      100, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show all", 
                     KernelExecute[
@@ -1765,7 +1764,7 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1518818640},
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1345217083},
                      100000000, {}]], MenuEvaluator -> Automatic]}}], 
                SpanFromLeft, SpanFromLeft, SpanFromLeft, SpanFromLeft}}, 
              BaseStyle -> {ContextMenu -> {
@@ -1815,7 +1814,7 @@ Cell[BoxData[
                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                  TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1518818640][
+                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1345217083][
                 TypeSystem`NestedGrid`PackagePrivate`tmpData$]]; If[
                Not[
                 FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]], 
@@ -1846,14 +1845,14 @@ Cell[BoxData[
            TypeSystem`NestedGrid`PackagePrivate`$state$$, 
             TypeSystem`NestedGrid`PackagePrivate`$path$$, 
             TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-            TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1518818640]]]], 
+            TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1345217083]]]], 
         TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$path$$}], 
       TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$ = Framed[
         Dynamic[
          Replace[
           MouseAnnotation[Null], {
-          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][Null] -> 
-           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1518818640][
+          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][Null] -> 
+           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1345217083][
              Pattern[TypeSystem`NestedGrid`PackagePrivate`path, 
               Blank[]]] :> (
             TypeSystem`NestedGrid`PackagePrivate`$lastPath = 
@@ -1900,9 +1899,9 @@ Cell[BoxData[
   "CopyTag",
   DisplayFunction->(#& ),
   InterpretationFunction->("Dataset[<>]"& )]], "Output",
- CellChangeTimes->{3.7713354288608418`*^9, 3.7713447656392574`*^9},
- CellLabel->
-  "Out[120]=",ExpressionUUID->"e13b9d85-6d9c-4fec-ab03-70e6167e888b"]
+ CellChangeTimes->{3.7713354288608418`*^9, 3.7713447656392574`*^9, 
+  3.7714225913710804`*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"f6b87aef-73c8-45f8-908a-858e92a6a139"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1947,8 +1946,9 @@ Cell[BoxData[
   3.7713314124519477`*^9, 3.7713314524378257`*^9}, {3.7713314934539633`*^9, 
   3.771331537568699*^9}, {3.771335101973079*^9, 3.771335115595899*^9}, {
   3.7713352552676015`*^9, 3.771335288563555*^9}, {3.7713353646772947`*^9, 
-  3.771335375641391*^9}},
- CellLabel->"In[97]:=",ExpressionUUID->"f18c4459-58e1-42f9-bb5f-71ffc5f4feb7"],
+  3.771335375641391*^9}, {3.771422299092456*^9, 3.7714223161880145`*^9}, {
+  3.771422602040902*^9, 3.771422604826521*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"f18c4459-58e1-42f9-bb5f-71ffc5f4feb7"],
 
 Cell[BoxData[
  TemplateBox[{TagBox[
@@ -1978,7 +1978,7 @@ Cell[BoxData[
               TypeSystem`PackageScope`AtomShape[34], "BusinessDay" -> 
               TypeSystem`PackageScope`AtomShape[34], "Load" -> 
               TypeSystem`PackageScope`AtomShape[60]]]], 20, {}]], 
-        "InitialData" -> TypeSystem`PackageScope`CacheHandle[214870766], 
+        "InitialData" -> TypeSystem`PackageScope`CacheHandle[1170023800], 
         "Type" -> TypeSystem`Vector[
           
           TypeSystem`Struct[{
@@ -1988,7 +1988,7 @@ Cell[BoxData[
             TypeSystem`Atom[Integer], 
             TypeSystem`Atom[Integer], 
             TypeSystem`Atom[Real]}], 58680], "HandleQ" -> True, "RowTarget" -> 
-        20, "Data" -> TypeSystem`PackageScope`CacheHandle[214870766]], 
+        20, "Data" -> TypeSystem`PackageScope`CacheHandle[1170023800]], 
       TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
       TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 1, 
       TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
@@ -2020,9 +2020,9 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1288044721][{All, "Date"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123][{
+                    All, "Date"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[All, "Date"]], "Mouse"], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -2050,9 +2050,9 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1288044721][{All, "Temperature"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123][{
+                    All, "Temperature"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[All, "Temperature"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -2079,9 +2079,9 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1288044721][{All, "Hour"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123][{
+                    All, "Hour"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[All, "Hour"]], "Mouse"], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -2109,9 +2109,9 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1288044721][{All, "BusinessDay"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123][{
+                    All, "BusinessDay"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[All, "BusinessDay"]], "Mouse"], 
                 Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
@@ -2138,15 +2138,15 @@ Cell[BoxData[
                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    1288044721][{All, "Load"}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123][{
+                    All, "Load"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[All, "Load"]], "Mouse"], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}]}, {
                Pane[
                 Annotation[
                  RawBoxes["0.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[1, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2154,7 +2154,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[1, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2162,7 +2162,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[1, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2170,7 +2170,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[1, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2178,7 +2178,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["11641.4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[1, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2186,7 +2186,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[2, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2194,7 +2194,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.3"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[2, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2202,7 +2202,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[2, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2210,7 +2210,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[2, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2218,7 +2218,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10883.1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[2, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2226,7 +2226,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["2.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[3, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2234,7 +2234,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.3"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[3, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2242,7 +2242,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[3, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2250,7 +2250,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[3, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2258,7 +2258,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10707.6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[3, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2266,7 +2266,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["3.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[4, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2274,7 +2274,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[4, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2282,7 +2282,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["3"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[4, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2290,7 +2290,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[4, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2298,7 +2298,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10663.2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[4, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2306,7 +2306,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["4.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[5, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2314,7 +2314,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[5, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2322,7 +2322,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[5, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2330,7 +2330,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[5, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2338,7 +2338,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10627.7"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[5, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2346,7 +2346,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["5.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[6, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2354,7 +2354,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["16.1387"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[6, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2362,7 +2362,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[6, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2370,7 +2370,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[6, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2378,7 +2378,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10848.8"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[6, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2386,7 +2386,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["6.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[7, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2394,7 +2394,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.3001"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[7, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2402,7 +2402,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[7, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2410,7 +2410,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[7, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2418,7 +2418,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["11520.7"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[7, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2426,7 +2426,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["7.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[8, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2434,7 +2434,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12.8001"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[8, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2442,7 +2442,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["7"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[8, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2450,7 +2450,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[8, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2458,7 +2458,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12877.6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[8, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2466,7 +2466,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["8.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[9, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2474,7 +2474,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12.8"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[9, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2482,7 +2482,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["8"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[9, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2490,7 +2490,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[9, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2498,7 +2498,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14087.2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[9, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2506,7 +2506,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["9.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[10, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2514,7 +2514,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.2999"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[10, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2522,7 +2522,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[10, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2530,7 +2530,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[10, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2538,7 +2538,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14646.6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[10, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2546,7 +2546,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[11, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2554,7 +2554,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.3"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[11, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2562,7 +2562,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["10"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[11, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2570,7 +2570,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[11, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2578,7 +2578,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14992.9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[11, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2586,7 +2586,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["11.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[12, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2594,7 +2594,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12.8001"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[12, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2602,7 +2602,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["11"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[12, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2610,7 +2610,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[12, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2618,7 +2618,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15267.5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[12, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2626,7 +2626,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[13, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2634,7 +2634,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.2999"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[13, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2642,7 +2642,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["12"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[13, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2650,7 +2650,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[13, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2658,7 +2658,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15400.2"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[13, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2666,7 +2666,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[14, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2674,7 +2674,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.3998"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[14, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2682,7 +2682,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[14, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2690,7 +2690,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[14, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2698,7 +2698,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15361.9"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[14, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2706,7 +2706,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[15, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2714,7 +2714,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[15, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2722,7 +2722,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[15, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2730,7 +2730,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[15, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2738,7 +2738,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15344.1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[15, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2746,7 +2746,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[16, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2754,7 +2754,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[16, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2762,7 +2762,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[16, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2770,7 +2770,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[16, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2778,7 +2778,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15176.5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[16, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2786,7 +2786,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["16.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[17, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2794,7 +2794,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.3998"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[17, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2802,7 +2802,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["16"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[17, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2810,7 +2810,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[17, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2818,7 +2818,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15081.6"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[17, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2826,7 +2826,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["17.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[18, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2834,7 +2834,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["13.9001"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[18, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2842,7 +2842,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["17"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[18, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2850,7 +2850,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[18, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2858,7 +2858,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15134.4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[18, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2866,7 +2866,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["18.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[19, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2874,7 +2874,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.3998"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[19, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2882,7 +2882,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["18"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[19, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2890,7 +2890,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[19, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2898,7 +2898,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15283.5"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[19, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2906,7 +2906,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["19.0"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[20, 
                    Key["Date"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2914,7 +2914,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["14.4"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[20, 
                    Key["Temperature"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -2922,7 +2922,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["19"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[20, 
                    Key["Hour"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2930,7 +2930,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[20, 
                    Key["BusinessDay"]]], "Mouse"], 
                 ImageSize -> {{34, Full}, Automatic}, 
@@ -2938,7 +2938,7 @@ Cell[BoxData[
                Pane[
                 Annotation[
                  RawBoxes["15510.1"], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
                   GeneralUtilities`Slice[20, 
                    Key["Load"]]], "Mouse"], 
                 ImageSize -> {{60, Full}, Automatic}, 
@@ -3388,8 +3388,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1288044721},
-                     1, {}]], MenuEvaluator -> Automatic], 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123}, 
+                    1, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show up to 10 rows", 
                     KernelExecute[
                     
@@ -3397,8 +3397,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1288044721},
-                     10, {}]], MenuEvaluator -> Automatic], 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123}, 
+                    10, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show up to 30 rows", 
                     KernelExecute[
                     
@@ -3406,8 +3406,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1288044721},
-                     30, {}]], MenuEvaluator -> Automatic], 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123}, 
+                    30, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show up to 100 rows", 
                     KernelExecute[
                     
@@ -3415,8 +3415,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1288044721},
-                     100, {}]], MenuEvaluator -> Automatic], 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123}, 
+                    100, {}]], MenuEvaluator -> Automatic], 
                     MenuItem["Show all", 
                     KernelExecute[
                     
@@ -3424,8 +3424,8 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1288044721},
-                     100000000, {}]], MenuEvaluator -> Automatic]}}], 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123}, 
+                    100000000, {}]], MenuEvaluator -> Automatic]}}], 
                SpanFromLeft, SpanFromLeft, SpanFromLeft, SpanFromLeft}}, 
              BaseStyle -> {ContextMenu -> {
                  MenuItem["Copy position to clipboard", 
@@ -3474,7 +3474,7 @@ Cell[BoxData[
                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                  TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1288044721][
+                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123][
                 TypeSystem`NestedGrid`PackagePrivate`tmpData$]]; If[
                Not[
                 FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]], 
@@ -3505,14 +3505,14 @@ Cell[BoxData[
            TypeSystem`NestedGrid`PackagePrivate`$state$$, 
             TypeSystem`NestedGrid`PackagePrivate`$path$$, 
             TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-            TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1288044721]]]], 
+            TypeSystem`NestedGrid`PackagePrivate`$grid$$, 393203123]]]], 
         TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$path$$}], 
       TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$ = Framed[
         Dynamic[
          Replace[
           MouseAnnotation[Null], {
-          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][Null] -> 
-           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1288044721][
+          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][Null] -> 
+           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[393203123][
              Pattern[TypeSystem`NestedGrid`PackagePrivate`path, 
               Blank[]]] :> (
             TypeSystem`NestedGrid`PackagePrivate`$lastPath = 
@@ -3564,273 +3564,30 @@ Cell[BoxData[
    3.771330017191003*^9, 3.771330266132351*^9, 3.771330665664277*^9, 
    3.771330808395026*^9, 3.7713308391332154`*^9, 3.771330883964631*^9, 
    3.771331042040372*^9, 3.7713351450518656`*^9, 3.771335282639839*^9, 
-   3.7713353223872995`*^9, 3.7713354649022474`*^9},
- CellLabel->"Out[97]=",ExpressionUUID->"ebe3d593-d8cf-49be-becb-e29f6c93a6aa"]
+   3.7713353223872995`*^9, 3.7713354649022474`*^9, 3.7714224204961166`*^9, 
+   3.771422636292903*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"09dacd18-e9cb-4d24-bc6a-a90db0e5e137"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"Normal", "[", "datasetforregressionNOLAG", "]"}]], "Input",
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\<C:\\\\Users\\\\kylem\\\\Documents\\\\GitHub\\\\2019-WSS\\\\Final \
+Project\\\\Drafts\\\\kyle\\\\datasetforregressionNOLAG.wxf\>\"", ",", " ", 
+   "datasetforregressionNOLAG"}], "]"}]], "Input",
  CellChangeTimes->{{3.771336085995229*^9, 3.7713360956338177`*^9}, {
-  3.771336127608328*^9, 3.771336131651758*^9}},
- CellLabel->"In[99]:=",ExpressionUUID->"7acf5fcb-698d-418a-ada5-4ab09da1f11e"],
+  3.771336127608328*^9, 3.771336131651758*^9}, {3.771422695595613*^9, 
+  3.771422716504717*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"7acf5fcb-698d-418a-ada5-4ab09da1f11e"],
 
-Cell[BoxData[
- InterpretationBox[
-  TagBox[
-   FrameBox[GridBox[{
-      {
-       ItemBox[
-        TagBox[
-         RowBox[{"{", 
-          RowBox[{
-           RowBox[{"\[LeftAssociation]", 
-            RowBox[{
-             RowBox[{"\<\"Date\"\>", "\[Rule]", "0.`"}], ",", 
-             RowBox[{"\<\"Temperature\"\>", "\[Rule]", "13.9`"}], ",", 
-             RowBox[{"\<\"Hour\"\>", "\[Rule]", "0"}], ",", 
-             RowBox[{"\<\"BusinessDay\"\>", "\[Rule]", "1"}], ",", 
-             RowBox[{"\<\"Load\"\>", "\[Rule]", "11641.4`"}]}], 
-            "\[RightAssociation]"}], ",", 
-           RowBox[{"\[LeftAssociation]", 
-            RowBox[{
-             RowBox[{"\<\"Date\"\>", "\[Rule]", "1.`"}], ",", 
-             
-             RowBox[{"\<\"Temperature\"\>", "\[Rule]", 
-              "13.300010225121763`"}], ",", 
-             RowBox[{"\<\"Hour\"\>", "\[Rule]", "1"}], ",", 
-             RowBox[{"\<\"BusinessDay\"\>", "\[Rule]", "1"}], ",", 
-             RowBox[{"\<\"Load\"\>", "\[Rule]", "10883.14`"}]}], 
-            "\[RightAssociation]"}], ",", 
-           TemplateBox[{"58677"},
-            "OutputSizeLimit`Skeleton"], ",", 
-           RowBox[{"\[LeftAssociation]", 
-            RowBox[{
-             RowBox[{"\<\"Date\"\>", "\[Rule]", "58679.`"}], ",", 
-             RowBox[{"\<\"Temperature\"\>", "\[Rule]", "21.7`"}], ",", 
-             RowBox[{"\<\"Hour\"\>", "\[Rule]", "23"}], ",", 
-             RowBox[{"\<\"BusinessDay\"\>", "\[Rule]", "0"}], ",", 
-             RowBox[{"\<\"Load\"\>", "\[Rule]", "12010.25`"}]}], 
-            "\[RightAssociation]"}]}], "}"}],
-         Short[#, 5]& ],
-        BaseStyle->{Deployed -> False},
-        StripOnInput->False]},
-      {GridBox[{
-         {
-          PaneBox[
-           TagBox[
-            TooltipBox[
-             StyleBox[
-              StyleBox[
-               DynamicBox[ToBoxes[
-                 FEPrivate`FrontEndResource[
-                 "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{65., {3., 9.}}],
-               StripOnInput->False,
-               DynamicUpdating->True,
-               LineSpacing->{1, 2},
-               LineIndent->0,
-               LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLText",
-              StripOnInput->False],
-             StyleBox[
-              DynamicBox[
-               ToBoxes[
-                FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
-                StandardForm]], DynamicUpdating -> True, LineIndent -> 0, 
-              LinebreakAdjustments -> {1., 100, 0, 0, 0}, 
-              LineSpacing -> {1, 2}, StripOnInput -> False]],
-            Annotation[#, 
-             Style[
-              Dynamic[
-               FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"]], 
-              DynamicUpdating -> True, LineIndent -> 0, 
-              LinebreakAdjustments -> {1., 100, 0, 0, 0}, 
-              LineSpacing -> {1, 2}], "Tooltip"]& ],
-           Alignment->Center,
-           BaselinePosition->Baseline,
-           ImageSize->{Automatic, {25, Full}}], 
-          ButtonBox[
-           PaneSelectorBox[{False->
-            StyleBox[
-             StyleBox[
-              DynamicBox[ToBoxes[
-                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
-                StandardForm],
-               ImageSizeCache->{52., {1., 9.}}],
-              StripOnInput->False,
-              DynamicUpdating->True,
-              LineSpacing->{1, 2},
-              LineIndent->0,
-              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
-             StripOnInput->False], True->
-            StyleBox[
-             StyleBox[
-              DynamicBox[ToBoxes[
-                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
-                StandardForm]],
-              StripOnInput->False,
-              DynamicUpdating->True,
-              LineSpacing->{1, 2},
-              LineIndent->0,
-              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
-             StripOnInput->False]}, Dynamic[
-             CurrentValue["MouseOver"]],
-            Alignment->Center,
-            FrameMargins->0,
-            ImageSize->{Automatic, {25, Full}}],
-           Appearance->None,
-           BaselinePosition->Baseline,
-           
-           ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 99, 24135771883730418138, 5/2],
-           Enabled->True,
-           Evaluator->Automatic,
-           Method->"Queued"], 
-          ButtonBox[
-           PaneSelectorBox[{False->
-            StyleBox[
-             StyleBox[
-              DynamicBox[ToBoxes[
-                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
-                StandardForm],
-               ImageSizeCache->{62., {1., 9.}}],
-              StripOnInput->False,
-              DynamicUpdating->True,
-              LineSpacing->{1, 2},
-              LineIndent->0,
-              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
-             StripOnInput->False], True->
-            StyleBox[
-             StyleBox[
-              DynamicBox[ToBoxes[
-                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
-                StandardForm]],
-              StripOnInput->False,
-              DynamicUpdating->True,
-              LineSpacing->{1, 2},
-              LineIndent->0,
-              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
-             StripOnInput->False]}, Dynamic[
-             CurrentValue["MouseOver"]],
-            Alignment->Center,
-            FrameMargins->0,
-            ImageSize->{Automatic, {25, Full}}],
-           Appearance->None,
-           BaselinePosition->Baseline,
-           
-           ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 99, 24135771883730418138, 5 2],
-           Enabled->True,
-           Evaluator->Automatic,
-           Method->"Queued"], 
-          ButtonBox[
-           PaneSelectorBox[{False->
-            StyleBox[
-             StyleBox[
-              DynamicBox[ToBoxes[
-                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
-                StandardForm],
-               ImageSizeCache->{44., {1., 9.}}],
-              StripOnInput->False,
-              DynamicUpdating->True,
-              LineSpacing->{1, 2},
-              LineIndent->0,
-              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
-             StripOnInput->False], True->
-            StyleBox[
-             StyleBox[
-              DynamicBox[ToBoxes[
-                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
-                StandardForm]],
-              StripOnInput->False,
-              DynamicUpdating->True,
-              LineSpacing->{1, 2},
-              LineIndent->0,
-              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
-             StripOnInput->False]}, Dynamic[
-             CurrentValue["MouseOver"]],
-            Alignment->Center,
-            FrameMargins->0,
-            ImageSize->{Automatic, {25, Full}}],
-           Appearance->None,
-           BaselinePosition->Baseline,
-           
-           ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 99, 24135771883730418138, Infinity],
-           Enabled->True,
-           Evaluator->Automatic,
-           Method->"Queued"], 
-          ButtonBox[
-           PaneSelectorBox[{False->
-            StyleBox[
-             StyleBox[
-              DynamicBox[ToBoxes[
-                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
-                StandardForm],
-               ImageSizeCache->{78., {1., 9.}}],
-              StripOnInput->False,
-              DynamicUpdating->True,
-              LineSpacing->{1, 2},
-              LineIndent->0,
-              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
-             StripOnInput->False], True->
-            StyleBox[
-             StyleBox[
-              DynamicBox[ToBoxes[
-                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
-                StandardForm]],
-              StripOnInput->False,
-              DynamicUpdating->True,
-              LineSpacing->{1, 2},
-              LineIndent->0,
-              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
-             StripOnInput->False]}, Dynamic[
-             CurrentValue["MouseOver"]],
-            Alignment->Center,
-            FrameMargins->0,
-            ImageSize->{Automatic, {25, Full}}],
-           Appearance->None,
-           BaselinePosition->Baseline,
-           ButtonFunction:>FrontEndExecute[{
-              FrontEnd`SetOptions[
-              FrontEnd`$FrontEnd, 
-               FrontEnd`PreferencesSettings -> {"Page" -> "Advanced"}], 
-              FrontEnd`FrontEndToken["PreferencesDialog"]}],
-           Evaluator->None,
-           Method->"Preemptive"]}
-        },
-        AutoDelete->False,
-        FrameStyle->GrayLevel[0.85],
-        GridBoxDividers->{"Columns" -> {False, {True}}},
-        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-        GridBoxSpacings->{"Columns" -> {{2}}}]}
-     },
-     DefaultBaseStyle->"Column",
-     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
-     GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
-     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{1.}}},
-     GridBoxSpacings->{"Columns" -> {
-         Offset[0.27999999999999997`], {
-          Offset[0.5599999999999999]}, 
-         Offset[0.27999999999999997`]}, "Rows" -> {
-         Offset[0.2], 
-         Offset[1.2], {
-          Offset[0.4]}, 
-         Offset[0.2]}}],
-    BaseStyle->"OutputSizeLimit",
-    FrameMargins->{{12, 12}, {0, 15}},
-    FrameStyle->GrayLevel[0.85],
-    RoundingRadius->5,
-    StripOnInput->False],
-   Deploy,
-   DefaultBaseStyle->"Deploy"],
-  If[24135771883730418138 === $SessionID, 
-   Out[99], Message[
-     MessageName[Syntax, "noinfoker"]]; Missing["NotAvailable"]; 
-   Null]]], "Output",
- CellChangeTimes->{3.7713361042390146`*^9, 3.7713361397925816`*^9},
- CellLabel->"Out[99]=",ExpressionUUID->"a8205656-58e9-47fc-8ee6-d0f673fad3ef"]
+Cell[BoxData["\<\"C:\\\\Users\\\\kylem\\\\Documents\\\\GitHub\\\\2019-WSS\\\\\
+Final Project\\\\Drafts\\\\kyle\\\\datasetforregressionNOLAG.wxf\"\>"], \
+"Output",
+ CellChangeTimes->{3.7713361042390146`*^9, 3.7713361397925816`*^9, 
+  3.7714227183334255`*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"c8a11006-9d99-489d-aee5-8a3e1a02411a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3852,6 +3609,8 @@ Cell[BoxData["30"], "Output",
    3.771332208330185*^9}, {3.7713322457792044`*^9, 3.7713322793699894`*^9}},
  CellLabel->"Out[69]=",ExpressionUUID->"bbe723ed-d47c-4f17-8475-c1d802e975fb"]
 }, Open  ]],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"DateValue", "[", 
@@ -3878,7 +3637,8 @@ Cell[BoxData[
   TemplateBox[{"30","\"days\"","days","\"Days\""},
    "Quantity"], "]"}]], "Output",
  CellChangeTimes->{3.771331707002163*^9},
- CellLabel->"Out[56]=",ExpressionUUID->"6a64e880-ab28-4e3e-bbe7-c84c4bef4c5a"],
+ CellLabel->"Out[56]=",ExpressionUUID->"6a64e880-ab28-4e3e-bbe7-c84c4bef4c5a"]
+}, Open  ]],
 
 Cell[BoxData[
  RowBox[{"DateVaue", "[", 
@@ -3906,6 +3666,8 @@ Cell[BoxData["5"], "Output",
  CellChangeTimes->{3.77133024334226*^9},
  CellLabel->"Out[38]=",ExpressionUUID->"a74ab544-db70-49cf-893d-1c5fccee42cf"]
 }, Open  ]],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Map", "[", 
@@ -3958,7 +3720,8 @@ Cell[BoxData[
         Editable->False], "}"}], ",", "\<\"Instant\"\>", ",", "None"}], "]"}],
      ",", "\<\"Hour\"\>"}], "]"}], "]"}]], "Output",
  CellChangeTimes->{3.771330114085739*^9},
- CellLabel->"Out[35]=",ExpressionUUID->"b2e3c163-0068-4870-8391-29770493beea"],
+ CellLabel->"Out[35]=",ExpressionUUID->"b2e3c163-0068-4870-8391-29770493beea"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -4028,39 +3791,43 @@ Cell[5481, 142, 577, 13, 40, "Input",ExpressionUUID->"5590790c-7dc6-4af6-9ca1-c9
 Cell[6061, 157, 580, 13, 43, "Output",ExpressionUUID->"942ea51a-d11e-4008-a572-a9f73ebac68c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6678, 175, 566, 13, 67, "Input",ExpressionUUID->"c6e7f566-7ad8-4fe0-bc9b-0014407d12c7"],
-Cell[7247, 190, 82324, 1714, 583, "Output",ExpressionUUID->"e13b9d85-6d9c-4fec-ab03-70e6167e888b"]
+Cell[6678, 175, 562, 12, 67, "Input",ExpressionUUID->"c6e7f566-7ad8-4fe0-bc9b-0014407d12c7"],
+Cell[7243, 189, 82347, 1714, 583, "Output",ExpressionUUID->"f6b87aef-73c8-45f8-908a-858e92a6a139"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[89608, 1909, 375, 8, 28, "Input",ExpressionUUID->"50052379-f9b8-4e8d-a9d4-7cb1c222d040"],
-Cell[89986, 1919, 272, 4, 32, "Output",ExpressionUUID->"c6c8289a-e2cd-4419-9d86-8391268784ba"]
+Cell[89627, 1908, 375, 8, 28, "Input",ExpressionUUID->"50052379-f9b8-4e8d-a9d4-7cb1c222d040"],
+Cell[90005, 1918, 272, 4, 32, "Output",ExpressionUUID->"c6c8289a-e2cd-4419-9d86-8391268784ba"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[90295, 1928, 1201, 22, 86, "Input",ExpressionUUID->"f18c4459-58e1-42f9-bb5f-71ffc5f4feb7"],
-Cell[91499, 1952, 78204, 1615, 583, "Output",ExpressionUUID->"ebe3d593-d8cf-49be-becb-e29f6c93a6aa"]
+Cell[90314, 1927, 1298, 23, 86, "Input",ExpressionUUID->"f18c4459-58e1-42f9-bb5f-71ffc5f4feb7"],
+Cell[91615, 1952, 78137, 1616, 583, "Output",ExpressionUUID->"09dacd18-e9cb-4d24-bc6a-a90db0e5e137"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[169740, 3572, 279, 4, 28, "Input",ExpressionUUID->"7acf5fcb-698d-418a-ada5-4ab09da1f11e"],
-Cell[170022, 3578, 10125, 254, 112, "Output",ExpressionUUID->"a8205656-58e9-47fc-8ee6-d0f673fad3ef"]
+Cell[169789, 3573, 495, 9, 28, "Input",ExpressionUUID->"7acf5fcb-698d-418a-ada5-4ab09da1f11e"],
+Cell[170287, 3584, 336, 5, 32, "Output",ExpressionUUID->"c8a11006-9d99-489d-aee5-8a3e1a02411a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[180184, 3837, 548, 8, 28, "Input",ExpressionUUID->"2eb47355-a69f-48fa-95c1-de3b4fa1b180"],
-Cell[180735, 3847, 357, 5, 32, "Output",ExpressionUUID->"bbe723ed-d47c-4f17-8475-c1d802e975fb"]
+Cell[170660, 3594, 548, 8, 28, "Input",ExpressionUUID->"2eb47355-a69f-48fa-95c1-de3b4fa1b180"],
+Cell[171211, 3604, 357, 5, 32, "Output",ExpressionUUID->"bbe723ed-d47c-4f17-8475-c1d802e975fb"]
 }, Open  ]],
-Cell[181107, 3855, 272, 5, 39, "Input",ExpressionUUID->"8fe2b631-2c45-4d67-990c-f165dc1a4d13"],
-Cell[181382, 3862, 496, 11, 32, "Message",ExpressionUUID->"fb1b6538-1d9f-41ff-8d25-bdb110233599"],
-Cell[181881, 3875, 247, 5, 43, "Output",ExpressionUUID->"6a64e880-ab28-4e3e-bbe7-c84c4bef4c5a"],
-Cell[182131, 3882, 251, 6, 39, "Input",ExpressionUUID->"c9a6e929-9d44-4b47-9288-0cb25933f7b1"],
 Cell[CellGroupData[{
-Cell[182407, 3892, 466, 10, 40, "Input",ExpressionUUID->"480f4ee0-a592-4a42-8f52-e3c4b90a30a3"],
-Cell[182876, 3904, 148, 2, 32, "Output",ExpressionUUID->"a74ab544-db70-49cf-893d-1c5fccee42cf"]
+Cell[171605, 3614, 272, 5, 39, "Input",ExpressionUUID->"8fe2b631-2c45-4d67-990c-f165dc1a4d13"],
+Cell[171880, 3621, 496, 11, 32, "Message",ExpressionUUID->"fb1b6538-1d9f-41ff-8d25-bdb110233599"],
+Cell[172379, 3634, 247, 5, 43, "Output",ExpressionUUID->"6a64e880-ab28-4e3e-bbe7-c84c4bef4c5a"]
 }, Open  ]],
-Cell[183039, 3909, 652, 16, 40, "Input",ExpressionUUID->"577c455e-a970-476a-b610-abfa64001807"],
-Cell[183694, 3927, 760, 15, 23, "Message",ExpressionUUID->"eb14b525-2bf8-4dc2-9b36-18b8164b5a71"],
-Cell[184457, 3944, 651, 16, 44, "Output",ExpressionUUID->"b2e3c163-0068-4870-8391-29770493beea"],
+Cell[172641, 3642, 251, 6, 39, "Input",ExpressionUUID->"c9a6e929-9d44-4b47-9288-0cb25933f7b1"],
 Cell[CellGroupData[{
-Cell[185133, 3964, 716, 18, 40, "Input",ExpressionUUID->"bdd0dbd3-23ab-45ac-ac95-6e574f127281"],
-Cell[185852, 3984, 213, 4, 43, "Output",ExpressionUUID->"775059d8-e5a6-4b6f-a535-5d897e094b64"]
+Cell[172917, 3652, 466, 10, 40, "Input",ExpressionUUID->"480f4ee0-a592-4a42-8f52-e3c4b90a30a3"],
+Cell[173386, 3664, 148, 2, 32, "Output",ExpressionUUID->"a74ab544-db70-49cf-893d-1c5fccee42cf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[173571, 3671, 652, 16, 40, "Input",ExpressionUUID->"577c455e-a970-476a-b610-abfa64001807"],
+Cell[174226, 3689, 760, 15, 23, "Message",ExpressionUUID->"eb14b525-2bf8-4dc2-9b36-18b8164b5a71"],
+Cell[174989, 3706, 651, 16, 44, "Output",ExpressionUUID->"b2e3c163-0068-4870-8391-29770493beea"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[175677, 3727, 716, 18, 40, "Input",ExpressionUUID->"bdd0dbd3-23ab-45ac-ac95-6e574f127281"],
+Cell[176396, 3747, 213, 4, 43, "Output",ExpressionUUID->"775059d8-e5a6-4b6f-a535-5d897e094b64"]
 }, Open  ]]
 }
 ]
