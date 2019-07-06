@@ -1,0 +1,47 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      1015,         37]
+NotebookOptionsPosition[       726,         24]
+NotebookOutlinePosition[      1068,         39]
+CellTagsIndexPosition[      1025,         36]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Transpose", "[", "droppedShiftedLoadData", "]"}]], "Input",
+ CellLabel->"In[5]:=",ExpressionUUID->"66a13589-270b-4978-b0d3-ad255900a71b"]
+},
+WindowSize->{1352, 829},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 11, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[561, 20, 161, 2, 28, "Input",ExpressionUUID->"66a13589-270b-4978-b0d3-ad255900a71b"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
