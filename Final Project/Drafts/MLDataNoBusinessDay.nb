@@ -1,0 +1,187 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      7264,        179]
+NotebookOptionsPosition[      6001,        149]
+NotebookOutlinePosition[      6343,        164]
+CellTagsIndexPosition[      6300,        161]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"droppedShiftedLoadData", "//", "Dimensions"}]], "Input",
+ CellChangeTimes->{{3.771419239783594*^9, 3.771419243003301*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"addab5c2-beec-4858-8689-4847a6a09bcd"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"30", ",", "58650"}], "}"}]], "Output",
+ CellChangeTimes->{3.771419243534262*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"be3e2db2-664e-49e3-b16c-6d79b6919333"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"normalData", " ", "=", " ", 
+   RowBox[{"Normal", "[", "datasetforregressionNOLAG", "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.7714192615784097`*^9, 3.7714192845064354`*^9}, 
+   3.7714227674825993`*^9},
+ CellLabel->"In[35]:=",ExpressionUUID->"25a96c81-c53a-4b6f-907b-9bafd01aef51"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"normalData", "[", 
+   RowBox[{"[", 
+    RowBox[{
+     RowBox[{"31", ";;"}], ",", " ", "\"\<Date\>\""}], "]"}], "]"}], " ", "//",
+   " ", "Length"}]], "Input",
+ CellChangeTimes->{{3.7714192863643856`*^9, 3.7714193161985245`*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"9d336b8b-3a84-4d0c-9e8c-413866639f91"],
+
+Cell[BoxData["58650"], "Output",
+ CellChangeTimes->{{3.7714193079439974`*^9, 3.771419316900066*^9}, 
+   3.7714227846452*^9, 3.771622835334569*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"de961173-12b1-4117-b670-e03be8cc4fef"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"mldataNoBusinessDay", " ", "=", " ", 
+   RowBox[{"Transpose", " ", "@", " ", 
+    RowBox[{"Join", "[", "\[IndentingNewLine]", "\t", 
+     RowBox[{
+      RowBox[{"{", "\[IndentingNewLine]", "\t\t", 
+       RowBox[{
+        RowBox[{"normalData", "[", 
+         RowBox[{"[", 
+          RowBox[{
+           RowBox[{"31", ";;"}], ",", " ", "\"\<Date\>\""}], "]"}], "]"}], 
+        ",", " ", "\[IndentingNewLine]", "\t\t", 
+        RowBox[{"normalData", "[", 
+         RowBox[{"[", 
+          RowBox[{
+           RowBox[{"31", ";;"}], ",", " ", "\"\<Temperature\>\""}], "]"}], 
+         "]"}]}], "\[IndentingNewLine]", "\t", "}"}], ",", 
+      "\[IndentingNewLine]", "\t", "droppedShiftedLoadData", ",", 
+      "\[IndentingNewLine]", "\t", 
+      RowBox[{"{", 
+       RowBox[{"normalData", "[", 
+        RowBox[{"[", 
+         RowBox[{
+          RowBox[{"31", ";;"}], ",", " ", "\"\<Load\>\""}], "]"}], "]"}], 
+       "}"}]}], "\[IndentingNewLine]", "]"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.7714193236373167`*^9, 3.771419433968175*^9}, {
+  3.7716228005164995`*^9, 3.771622803424082*^9}, {3.7716228495510445`*^9, 
+  3.7716228549355745`*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"a3ba32d9-a94d-4cbc-8ffc-fa0679b61587"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\<C:\\\\Users\\\\kylem\\\\Documents\\\\GitHub\\\\2019-WSS\\\\Final \
+Project\\\\Drafts\\\\kyle\\\\mldataNoBusinessDay.wxf\>\"", ",", 
+   "mldataNoBusinessDay"}], "]"}]], "Input",
+ CellChangeTimes->{{3.771622914187049*^9, 3.7716229172871723`*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"f063a636-2735-4fb5-a73d-a88972dd7ec7"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\kylem\\\\Documents\\\\GitHub\\\\2019-WSS\\\\\
+Final Project\\\\Drafts\\\\kyle\\\\mldataNoBusinessDay.wxf\"\>"], "Output",
+ CellChangeTimes->{3.771622927099779*^9},
+ CellLabel->"Out[38]=",ExpressionUUID->"74b59ff0-2652-4b08-afc5-0afd1d3245d2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"columnHeadsNoBusinessDay", "=", 
+  RowBox[{"{", 
+   RowBox[{
+   "\"\<timeStep\>\"", ",", "\"\<temperature\>\"", ",", "\"\<Lag1\>\"", ",", 
+    "\"\<Lag2\>\"", ",", "\"\<Lag3\>\"", ",", "\"\<Lag4\>\"", ",", 
+    "\"\<Lag5\>\"", ",", "\"\<Lag6\>\"", ",", "\"\<Lag7\>\"", ",", 
+    "\"\<Lag8\>\"", ",", "\"\<Lag9\>\"", ",", "\"\<Lag10\>\"", ",", 
+    "\"\<Lag11\>\"", ",", "\"\<Lag12\>\"", ",", "\"\<Lag13\>\"", ",", 
+    "\"\<Lag14\>\"", ",", "\"\<Lag15\>\"", ",", "\"\<Lag16\>\"", ",", 
+    "\"\<Lag17\>\"", ",", "\"\<Lag18\>\"", ",", "\"\<Lag19\>\"", ",", 
+    "\"\<Lag20\>\"", ",", "\"\<Lag21\>\"", ",", "\"\<Lag22\>\"", ",", 
+    "\"\<Lag23\>\"", ",", "\"\<Lag24\>\"", ",", "\"\<Lag25\>\"", ",", 
+    "\"\<Lag26\>\"", ",", "\"\<Lag27\>\"", ",", "\"\<Lag28\>\"", ",", 
+    "\"\<Lag29\>\"", ",", "\"\<Lag30\>\"", ",", "\"\<Load\>\""}], 
+   "}"}]}]], "Input",
+ CellChangeTimes->{{3.7716229571695323`*^9, 3.771622971408428*^9}, {
+  3.771623123866684*^9, 3.7716231268170834`*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"585e3dc6-99b9-402e-b9ea-ac12f725582b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"timeStep\"\>", ",", "\<\"temperature\"\>", ",", "\<\"Lag1\"\>",
+    ",", "\<\"Lag2\"\>", ",", "\<\"Lag3\"\>", ",", "\<\"Lag4\"\>", 
+   ",", "\<\"Lag5\"\>", ",", "\<\"Lag6\"\>", ",", "\<\"Lag7\"\>", 
+   ",", "\<\"Lag8\"\>", ",", "\<\"Lag9\"\>", ",", "\<\"Lag10\"\>", 
+   ",", "\<\"Lag11\"\>", ",", "\<\"Lag12\"\>", ",", "\<\"Lag13\"\>", 
+   ",", "\<\"Lag14\"\>", ",", "\<\"Lag15\"\>", ",", "\<\"Lag16\"\>", 
+   ",", "\<\"Lag17\"\>", ",", "\<\"Lag18\"\>", ",", "\<\"Lag19\"\>", 
+   ",", "\<\"Lag20\"\>", ",", "\<\"Lag21\"\>", ",", "\<\"Lag22\"\>", 
+   ",", "\<\"Lag23\"\>", ",", "\<\"Lag24\"\>", ",", "\<\"Lag25\"\>", 
+   ",", "\<\"Lag26\"\>", ",", "\<\"Lag27\"\>", ",", "\<\"Lag28\"\>", 
+   ",", "\<\"Lag29\"\>", ",", "\<\"Lag30\"\>", ",", "\<\"Load\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.7716229777087774`*^9, 3.771623127872011*^9},
+ CellLabel->"Out[40]=",ExpressionUUID->"91e75471-5fdb-4521-ae73-d72944608848"]
+}, Open  ]]
+},
+WindowSize->{682, 820},
+WindowMargins->{{Automatic, -7}, {Automatic, 0}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 11, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 225, 3, 28, "Input",ExpressionUUID->"addab5c2-beec-4858-8689-4847a6a09bcd"],
+Cell[811, 27, 199, 4, 32, "Output",ExpressionUUID->"be3e2db2-664e-49e3-b16c-6d79b6919333"]
+}, Open  ]],
+Cell[1025, 34, 324, 7, 28, "Input",ExpressionUUID->"25a96c81-c53a-4b6f-907b-9bafd01aef51"],
+Cell[CellGroupData[{
+Cell[1374, 45, 342, 8, 28, "Input",ExpressionUUID->"9d336b8b-3a84-4d0c-9e8c-413866639f91"],
+Cell[1719, 55, 225, 3, 32, "Output",ExpressionUUID->"de961173-12b1-4117-b670-e03be8cc4fef"]
+}, Open  ]],
+Cell[1959, 61, 1257, 29, 162, "Input",ExpressionUUID->"a3ba32d9-a94d-4cbc-8ffc-fa0679b61587"],
+Cell[CellGroupData[{
+Cell[3241, 94, 380, 7, 67, "Input",ExpressionUUID->"f063a636-2735-4fb5-a73d-a88972dd7ec7"],
+Cell[3624, 103, 275, 3, 52, "Output",ExpressionUUID->"74b59ff0-2652-4b08-afc5-0afd1d3245d2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3936, 111, 1080, 18, 124, "Input",ExpressionUUID->"585e3dc6-99b9-402e-b9ea-ac12f725582b"],
+Cell[5019, 131, 966, 15, 104, "Output",ExpressionUUID->"91e75471-5fdb-4521-ae73-d72944608848"]
+}, Open  ]]
+}
+]
+*)
+
