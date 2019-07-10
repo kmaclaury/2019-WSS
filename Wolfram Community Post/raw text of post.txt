@@ -1,0 +1,69 @@
+#Introduction
+
+I set out with the goal of predicting regional electrical loads using neural networks.  I didn't quite get there.  However, I did create  a set of tools to consume time series data into the Wolfram Language , transform the data into Time Series, Datasets and other structures necessary to analyze, visualize and  predict Time Series data. 
+#The Challenge
+Predicting regional electrical loads and generation will become increasingly difficult as variable renewable resources such as solar photovoltaics and wind turbines account for a greater percentage of electrical generation.  Regional electrical loads are influenced by a number of factors which render forecasting based on statistical techniques challenging.  A visual inspection of summary data, and the load curves for a few individual days highlights some of the features that render traditional statistical tools challenging to work with.
+
+![Minimum, Mean and Maximum Monthly Load for the New England ISO][1]
+The plot of minimum, mean and maximum load values by month illustrate that the time of year with the highest overall demand is the summer.  Winter provides a second period of relatively high system load, while the system load during spring and autumn is relatively low. 
+
+![Daily Load Curves for a day in February, May and July][2]
+The example load curves above illustrate that the daily load profile during the summer and winter months are quite different, and that the load curve during the milder months of the year share some features of summer and winter load curves.  
+
+These features, in addition to the impact of temperature, whether a day is a business day, the fact that the data is autocorrelated, and the fact that there are likely interactions between many of these terms makes determining the best statistical model to describe and forecast electrical load challenging.  It was for these reasons that I was interested in using machine learning algorithms to predict regional electrical load. 
+#Workflow
+##Acquiring and Importing System Load Data
+###Importing CSV files and Combining their Data
+In the United States regional electrical operators, such as the New England Independent System Operator often make much of their load, generation and price data available for download from their website.  I was able to download seven years of hourly system load data from the New England ISO's website as CSV files.  An example file is attached to this post.  The data was only available in 14 day increments, and each file had a number of header records and a trailer record.  The function below will consume every CSV files in a directory named "data" within the notebook's directory, extract the data records from each file, and return a CSV file named "alldata.csv" that contains the complete data set.
+
+    importData[] := 
+     importData @ 
+      FileNames["*.csv", FileNameJoin[{NotebookDirectory[], "data"}]]
+    importData[csv_List] := Join @@ Map[importData, csv]
+    importData[path_String] := Module[
+       	{csv, headers, data},
+       	csv = Import[path, "CSV"];
+       	headers = csv[[6]];
+       	data = csv[[7 ;; -2]];
+       	Transpose[AssociationThread[headers -> Transpose[data]], 
+        AllowedHeads -> All]
+       ];
+    exportPath = FileNameJoin[{NotebookDirectory[], "alldata.csv"}];
+    data = importData[];
+    Export[exportPath, Join[{Keys[First[data]]}, Values[data]], "CSV"]
+    
+###Combining Data and Hour Columns to a DateObject Comaptible Column
+To create a TimeSeries in the Wolfram Language requires the time points in the series to be expressed in a format compatible with the DateObject function.  This requires that the Date and HE (Hour Ending) columns in "alldata.csv" to be combined and reformatted.  The functions below do this when applied to data in the "alldata.csv".
+
+This function imports the "alldata.csv" as a Dataset object.
+
+    loadDataComplete=SemanticImport[ "C:\\filepath\\alldata.csv"]
+
+This function transforms the "Date" and "HE" columns to DateObject and TimeObject,
+
+    loadDateObjectTimeObject = 
+      loadDataComplete[All, {"Date" -> DateObject, "HE" -> TimeObject}];
+
+This function creates a single column that combines the DateObject and TimeObject.
+
+    loadDataDateTime = 
+      loadDateObjectTimeObject[
+       All, (Append[#, "DateTime" -> DateObject[#Date, #HE]] &)];
+
+##Creating a TimeSeries
+The TimeSeries within the Wolfram Language simplifies analysis, computation and visualization of time series data. It consists of a series of DateObject->Value pairs.  The function below extracts each DateObject and Value pair from the Dataset defined by the prior function, and returns a TimeSeries object.
+
+    
+    neISOLoad = TimeSeries @ Map[
+       	{#["DateTime"], #["MWh"]} &,
+       	Normal[loadDataDateTime]
+
+You may find that there are gaps in your time series data.  Many time series analyses are simplified if the data is regularly spaced.  To create placeholders for each missing time point the TimeSeriesResample function can be used.
+
+    resampledNEISOLoad = TimeSeriesResample[neISOLoad, "Hour"]
+
+
+https://www.iso-ne.com/isoexpress/web/reports/load-and-demand/-/tree/dmnd-rt-hourly-sys
+
+  [1]: https://community.wolfram.com//c/portal/getImageAttachment?filename=.gif&userId=1726628
+  [2]: https://community.wolfram.com//c/portal/getImageAttachment?filename=FebruaryMayJulyExampleLoads.gif&userId=1726628  [2]: https://community.wolfram.com//c/portal/getImageAttachment?filename=FebruaryMayJulyExampleLoads.gif&userId=1726628

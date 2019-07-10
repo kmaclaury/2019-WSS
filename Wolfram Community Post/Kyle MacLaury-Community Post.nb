@@ -1,0 +1,74 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      2118,         64]
+NotebookOptionsPosition[      1608,         47]
+NotebookOutlinePosition[      1950,         62]
+CellTagsIndexPosition[      1907,         59]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+[WSS-19] Tools for consuming and transforming time-series data\
+\>", "Title",
+ CellChangeTimes->{{3.771755194235653*^9, 3.7717552312202806`*^9}, {
+  3.771755277754592*^9, 
+  3.771755281022871*^9}},ExpressionUUID->"5a265ab3-2b9f-425d-92ef-\
+048c505f9aad"],
+
+Cell["Introduction", "Subtitle",
+ CellChangeTimes->{{3.7717554420780725`*^9, 
+  3.7717554495471*^9}},ExpressionUUID->"99ea4169-540b-49ad-a6b0-a4150d4827f6"],
+
+Cell["\<\
+I set out with the goal of predicting regional electrical loads using neural \
+networks.  I didn\[CloseCurlyQuote]t quite get there.  However, I did create  \
+a set of tools to consume time series data into the Wolfram Language , and \
+transform the data into Time Series, Datasets, and other structures necessary \
+to analyze, visualize and ultimately predict Time Series data.  \
+\>", "Text",
+ CellChangeTimes->{{3.771755456210115*^9, 3.771755627244543*^9}, {
+  3.7717556615352345`*^9, 
+  3.7717557644514184`*^9}},ExpressionUUID->"0ecfd1a7-3f4e-433e-bb0c-\
+8d3f86c56657"]
+}, Open  ]]
+},
+WindowSize->{682, 820},
+WindowMargins->{{Automatic, -7}, {Automatic, 0}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 11, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 264, 6, 216, "Title",ExpressionUUID->"5a265ab3-2b9f-425d-92ef-048c505f9aad"],
+Cell[850, 30, 156, 2, 53, "Subtitle",ExpressionUUID->"99ea4169-540b-49ad-a6b0-a4150d4827f6"],
+Cell[1009, 34, 583, 10, 100, "Text",ExpressionUUID->"0ecfd1a7-3f4e-433e-bb0c-8d3f86c56657"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
