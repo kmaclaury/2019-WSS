@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[      2118,         64]
-NotebookOptionsPosition[      1608,         47]
-NotebookOutlinePosition[      1950,         62]
-CellTagsIndexPosition[      1907,         59]
+NotebookDataLength[      4682,        115]
+NotebookOptionsPosition[      3768,         92]
+NotebookOutlinePosition[      4110,        107]
+CellTagsIndexPosition[      4067,        104]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21,11 +21,12 @@ Notebook[{
 
 Cell[CellGroupData[{
 Cell["\<\
-[WSS-19] Tools for consuming and transforming time-series data\
+[WSS-19] Tools for consuming, transforming analyzing and predicting  \
+time-series data\
 \>", "Title",
  CellChangeTimes->{{3.771755194235653*^9, 3.7717552312202806`*^9}, {
-  3.771755277754592*^9, 
-  3.771755281022871*^9}},ExpressionUUID->"5a265ab3-2b9f-425d-92ef-\
+  3.771755277754592*^9, 3.771755281022871*^9}, {3.7717580349284744`*^9, 
+  3.7717580695315466`*^9}},ExpressionUUID->"5a265ab3-2b9f-425d-92ef-\
 048c505f9aad"],
 
 Cell["Introduction", "Subtitle",
@@ -36,13 +37,57 @@ Cell["\<\
 I set out with the goal of predicting regional electrical loads using neural \
 networks.  I didn\[CloseCurlyQuote]t quite get there.  However, I did create  \
 a set of tools to consume time series data into the Wolfram Language , and \
-transform the data into Time Series, Datasets, and other structures necessary \
-to analyze, visualize and ultimately predict Time Series data.  \
+transform the data into Time Series, Datasets and other structures necessary \
+to analyze, visualize and  predict Time Series data. \
 \>", "Text",
  CellChangeTimes->{{3.771755456210115*^9, 3.771755627244543*^9}, {
-  3.7717556615352345`*^9, 
-  3.7717557644514184`*^9}},ExpressionUUID->"0ecfd1a7-3f4e-433e-bb0c-\
-8d3f86c56657"]
+  3.7717556615352345`*^9, 3.7717557644514184`*^9}, {3.7717574769597445`*^9, 
+  3.771757484589714*^9}},ExpressionUUID->"0ecfd1a7-3f4e-433e-bb0c-\
+8d3f86c56657"],
+
+Cell[CellGroupData[{
+
+Cell["The Challenge", "Subtitle",
+ CellChangeTimes->{{3.7717573752912345`*^9, 
+  3.7717573883847895`*^9}},ExpressionUUID->"e9097ea9-1b0d-42e3-a65e-\
+c20519584016"],
+
+Cell["\<\
+Predicting regional electrical loads and generation will become increasingly \
+difficult as variable renewable resources such as solar photovoltaics and \
+wind turbines account for a greater percentage of electrical generation.  \
+\>", "Text",
+ CellChangeTimes->{{3.7717573941253967`*^9, 3.771757433673326*^9}, {
+  3.7717575585937233`*^9, 3.7717576813541145`*^9}, {3.771757734621919*^9, 
+  3.771757736217389*^9}, {3.7717577880351577`*^9, 3.7717578567341304`*^9}, {
+  3.7717578934460225`*^9, 3.771758006337815*^9}, {3.7717580843587103`*^9, 
+  3.7717582308022647`*^9}, {3.7717582727945533`*^9, 3.771758378448174*^9}, {
+  3.7717585249905643`*^9, 3.771758573193993*^9}, {3.7717586193186054`*^9, 
+  3.771758623373878*^9}, {3.7717587145790176`*^9, 3.7717587358374796`*^9}, {
+  3.7717587766296844`*^9, 
+  3.77175877862177*^9}},ExpressionUUID->"3e2876c2-a53a-4d11-823c-\
+94a96ffeb43e"],
+
+Cell["\<\
+Regional electrical loads are influenced by a number of factors which render \
+traditional statistical techniques challenging to work with.  A visual \
+inspection of summary data, and the load curves for a few individual days \
+highlights some of the features that render traditional statistical tools \
+challenging to work with.\
+\>", "Text",
+ CellChangeTimes->{{3.7717573941253967`*^9, 3.771757433673326*^9}, {
+   3.7717575585937233`*^9, 3.7717576813541145`*^9}, {3.771757734621919*^9, 
+   3.771757736217389*^9}, {3.7717577880351577`*^9, 3.7717578567341304`*^9}, {
+   3.7717578934460225`*^9, 3.771758006337815*^9}, {3.7717580843587103`*^9, 
+   3.77175819260277*^9}, 3.771758748918065*^9, {3.77175880884966*^9, 
+   3.771758879072529*^9}},ExpressionUUID->"f759a251-a011-47e7-8577-\
+025064b516a3"],
+
+Cell["The ", "Text",
+ CellChangeTimes->{{3.7717588904740133`*^9, 
+  3.77175889583226*^9}},ExpressionUUID->"fa5e2e14-382a-46d2-bd0d-\
+af73af0c9f3f"]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{682, 820},
@@ -62,13 +107,17 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[583, 22, 264, 6, 216, "Title",ExpressionUUID->"5a265ab3-2b9f-425d-92ef-048c505f9aad"],
-Cell[850, 30, 156, 2, 53, "Subtitle",ExpressionUUID->"99ea4169-540b-49ad-a6b0-a4150d4827f6"],
-Cell[1009, 34, 583, 10, 100, "Text",ExpressionUUID->"0ecfd1a7-3f4e-433e-bb0c-8d3f86c56657"]
+Cell[583, 22, 339, 7, 216, "Title",ExpressionUUID->"5a265ab3-2b9f-425d-92ef-048c505f9aad"],
+Cell[925, 31, 156, 2, 53, "Subtitle",ExpressionUUID->"99ea4169-540b-49ad-a6b0-a4150d4827f6"],
+Cell[1084, 35, 619, 10, 100, "Text",ExpressionUUID->"0ecfd1a7-3f4e-433e-bb0c-8d3f86c56657"],
+Cell[CellGroupData[{
+Cell[1728, 49, 163, 3, 53, "Subtitle",ExpressionUUID->"e9097ea9-1b0d-42e3-a65e-c20519584016"],
+Cell[1894, 54, 887, 14, 78, "Text",ExpressionUUID->"3e2876c2-a53a-4d11-823c-94a96ffeb43e"],
+Cell[2784, 70, 806, 13, 100, "Text",ExpressionUUID->"f759a251-a011-47e7-8577-025064b516a3"],
+Cell[3593, 85, 147, 3, 34, "Text",ExpressionUUID->"fa5e2e14-382a-46d2-bd0d-af73af0c9f3f"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 

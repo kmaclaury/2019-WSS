@@ -97,7 +97,7 @@ The BusinessDayQ function applies a calendar definition to DateObject values, an
         {1}
         ];
 ##Transforming Data for Analysis
-For the purpose of regression a number of the values in the data need to be transformed. The Date values need to be transformed to sequential integer values with 0 for the first value.  The Hour column needs to be translated to an integer as well, and the BusinessDay column needs to be translated to 0 or 1.  The following Functions do this transformation, paired with the native Boole function are applied to the dataset below.
+For the purpose of regression a number of the values in the data need to be transformed. The Date values need to be transformed to sequential integer values with 0 for the first value.  The Hour column needs to be translated to an integer as well, and the BusinessDay column needs to be translated to 0 or 1.  The following functions do this transformation, paired with the native Boole function are applied to the dataset below.
 
     timeObjecttoHourInteger[hour_TimeObject] := DateValue[hour, "Hour"]
     absoluteTimeDifferenceConverter[date_DateObject] := 
@@ -112,7 +112,34 @@ For the purpose of regression a number of the values in the data need to be tran
 A common technique for the analysis of time series data is to introduce lagged values into the dataset.  This allows statistical techniques to extract the relationship between a data point, and the points prior.  Thirty lagged values were created, and the lagged values combined into a dataset.
 
 To accomplish this the load values are extracted into a list, and a table is constructed where each row represents the System Load data lagged 1 time step.  This creates lists that are longer than the original data set, by the number of lags introduced, so a function is applied to drop the first 30 time steps from the data.
+This expression extracts the System Load values into a list.
 
+    loadList = Normal[datasetforregressionNOLAG[All, "Load"]];
+This expression creates a table of 30 lists of the System Load data, where the values in each subsequent list is shifted to the right.
+
+    shiftedLoadData = 
+      Table[PadLeft[Drop[loadList, -i], Length[loadList]], {i, 30}];
+
+The prior expression introduced 30 additional values in each list.  To ensure that these lagged System Load Values have the same number of records as the actual System Load values, the following functions drop the first 30 values from each list.
+
+    drop30[list_List] := Drop[list, 30]
+    droppedShiftedLoadData = Map[drop30, shiftedLoadData];
+This expression turns the table of lagged values created above, and returns a Dataset.
+
+    datasetofLaggedLoad = Dataset@Transpose[droppedShiftedLoadData];
+This expression normalizes the Dataset that contains the load and temperature values.
+normalData = Normal[datasetforregressionNOLAG];
+This expression combines the lagged System Load values with the System Load, Temperature and Business day values.
+
+    mldata = Transpose @ Join[
+        	{
+         		normalData[[31 ;;, "Date"]], 
+         		normalData[[31 ;;, "Temperature"]], 
+         		normalData[[31 ;;, "BusinessDay"]]
+         	},
+        	droppedShiftedLoadData,
+        	{normalData[[31 ;;, "Load"]]}
+        ];
 
 https://www.iso-ne.com/isoexpress/web/reports/load-and-demand/-/tree/dmnd-rt-hourly-sys
 
