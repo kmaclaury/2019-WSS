@@ -61,9 +61,60 @@ The TimeSeries within the Wolfram Language simplifies analysis, computation and 
 You may find that there are gaps in your time series data.  Many time series analyses are simplified if the data is regularly spaced.  To create placeholders for each missing time point the TimeSeriesResample function can be used.
 
     resampledNEISOLoad = TimeSeriesResample[neISOLoad, "Hour"]
+##Acquiring Weather Data
+The Wolfram Language provides built in access to historical weather data.  Since the system load data is for New England, I chose to download weather data for Boston, the largest city in the region.  The weather data returned by the Wolfram Language is not regularly spaced, so the function below uses TimeSeriesRescale, and TimeSeriesResample to regularize the data into hourly intervals.  Notice that the start and end times of the weather data time series are defined in terms of the "FirstDate" and "LastDate" of the system load data.
+
+    weatherData = TimeSeriesResample[
+        TimeSeriesRescale[
+          WeatherData["KBOS", 
+        "Temperature", {resampledNEISOLoad["FirstDate"], 
+         resampledNEISOLoad["LastDate"]}], 
+          {resampledNEISOLoad["FirstDate"], resampledNEISOLoad["LastDate"]}
+          ],
+        "Hour"
+        ]
+##Synthesizing Missing Weather Data and Load Data
+The weather and load data have some missing values.  The function below combines the two sets of data, and uses the built in SynthesizeMissingValues function to ensure that a value is available for each point in time in the TimeSeries.
+
+    loadandWeatherData = SynthesizeMissingValues@Transpose@{
+         resampledNEISOLoad["Dates"], 
+         resampledNEISOLoad["Values"], 
+         Replace[weatherData["Values"], 
+          Except[_Real | _Integer] :> Missing["Temperature"], {1}]
+         };
+##Creating a BusinessDay and Hour column
+The BusinessDayQ function applies a calendar definition to DateObject values, and returns True if the day is a Business Day and False if it is not.  The default calendar is used here, but there are several built in Calendars, and one can define a custom calendar.
+
+    combinedWeatherLoadBusinessDay = Dataset @ Apply[
+        <|
+          "Date" -> #1, 
+          "Temperature" -> #3,
+          "Hour" -> TimeObject[#1],
+          "BusinessDay" -> BusinessDayQ[#1],
+          "Load" -> #2 
+          |> &,
+        loadandWeatherData,
+        {1}
+        ];
+##Transforming Data for Analysis
+For the purpose of regression a number of the values in the data need to be transformed. The Date values need to be transformed to sequential integer values with 0 for the first value.  The Hour column needs to be translated to an integer as well, and the BusinessDay column needs to be translated to 0 or 1.  The following Functions do this transformation, paired with the native Boole function are applied to the dataset below.
+
+    timeObjecttoHourInteger[hour_TimeObject] := DateValue[hour, "Hour"]
+    absoluteTimeDifferenceConverter[date_DateObject] := 
+     QuantityMagnitude[
+      DateDifference[resampledNEISOLoad["FirstDate"], date, "Hours"]]
+
+    datasetforregressionNOLAG = combinedWeatherLoadBusinessDay[All, {
+       "Hour" -> timeObjecttoHourInteger,
+       "BusinessDay" -> Boole,
+       "Date" -> absoluteTimeDifferenceConverter}]
+##Introducing Lags to System Load Data
+A common technique for the analysis of time series data is to introduce lagged values into the dataset.  This allows statistical techniques to extract the relationship between a data point, and the points prior.  Thirty lagged values were created, and the lagged values combined into a dataset.
+
+To accomplish this the load values are extracted into a list, and a table is constructed where each row represents the System Load data lagged 1 time step.  This creates lists that are longer than the original data set, by the number of lags introduced, so a function is applied to drop the first 30 time steps from the data.
 
 
 https://www.iso-ne.com/isoexpress/web/reports/load-and-demand/-/tree/dmnd-rt-hourly-sys
 
   [1]: https://community.wolfram.com//c/portal/getImageAttachment?filename=.gif&userId=1726628
-  [2]: https://community.wolfram.com//c/portal/getImageAttachment?filename=FebruaryMayJulyExampleLoads.gif&userId=1726628  [2]: https://community.wolfram.com//c/portal/getImageAttachment?filename=FebruaryMayJulyExampleLoads.gif&userId=1726628
+  [2]: https://community.wolfram.com//c/portal/getImageAttachment?filename=FebruaryMayJulyExampleLoads.gif&userId=1726628
